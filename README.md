@@ -73,11 +73,10 @@ Session #4
 * Neural Networks
 
 Session #5
-* CNN or ConvNets
-* ImageNet, AlexNet, VGG16...
+* RNN, GRU, LSTM
 
 Session #6
-* RNN, GRU, LSTM
+* CNN, ConvNets
 
 Session #7
 * GANS
