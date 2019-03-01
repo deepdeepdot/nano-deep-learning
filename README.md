@@ -2,8 +2,8 @@
 
 This course was prepared for the Nanohacker community
 
-    $ git clone https://github.com/deepdeepdot/deep-nano-draft.git
-    $ cd deep-nano-draft
+    $ git clone https://github.com/deepdeepdot/nano-deep-learning.git
+    $ cd nano-deep-learning
 
 
 If you have python 2.7
@@ -19,6 +19,7 @@ If you have python 3
 ### Overview
 
 It requires proficiency in a programming language, say Ruby or Javascript.
+Also, it assumes knowledge of basic git commands and github.
 We'll cover some computer science topics like trees, functional 
 programming using Python, uses of classes.
 
