@@ -2,8 +2,8 @@
 
 This course was prepared for the Nanohacker community
 
-    $ git clone https://github.com/deepdeepdot/nano-deep-learning.git
-    $ cd nano-deep-learning
+    $ git clone https://github.com/deepdeepdot/nano-deep-learning-in-7-sessions.git
+    $ cd nano-deep-learning-in-7-sessions
 
 
 If you have python 2.7
