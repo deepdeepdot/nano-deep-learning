@@ -144,7 +144,7 @@ Buckle your seatbelt Dorothy, <br>
 
 - Whirlwind Tour of Python https://nbviewer.jupyter.org/github/jakevdp/WhirlwindTourOfPython/blob/master/Index.ipynb
 
-- Python, Numpy<br/>
+- Python<br/>
 http://cs231n.github.io/python-numpy-tutorial/
 https://www.udemy.com/deep-learning-prerequisites-the-numpy-stack-in-python/
 
@@ -351,7 +351,7 @@ http://setosa.io/ev/image-kernels/
   - Rotation
   - Scaling
 
-No worries. This will be covered in your algebra class!
+- No worries. This will be covered in your algebra class!
 
 * Interactive Algebra
 http://immersivemath.com/ila/index.html
