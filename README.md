@@ -43,14 +43,14 @@ Math Cheatsheet https://www.flickr.com/photos/95869671@N08/40544016221
 
 I decided not to recreate slides that have been wonderfully created by other free online courses. And also reuse much of the available online material on the net.
 
-Sources:
-https://www.kadenze.com/courses/creative-applications-of-deep-learning-with-tensorflow/info
-http://introtodeeplearning.com
-https://matplotlib.org
+#### Sources
+* https://www.kadenze.com/courses/creative-applications-of-deep-learning-with-tensorflow/info
+* http://introtodeeplearning.com
+* https://matplotlib.org
 
-Slides:
-Deep Learning: http://introtodeeplearning.com
-Tensorflow: http://web.stanford.edu/class/cs20si/syllabus.html
+#### Slides
+* Deep Learning: http://introtodeeplearning.com
+* Tensorflow: http://web.stanford.edu/class/cs20si/syllabus.html
 
 
 ### Sections
