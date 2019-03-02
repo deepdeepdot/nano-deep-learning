@@ -62,14 +62,14 @@ Given a map of filters, produce different images
 
 Recall our optimized kernel transformation code
 
-    blur = [
-        [0.0625, 0.125, 0.0625],
-        [0.125, 0.25, 0.125],
-        [0.0625, 0.125, 0.0625]
+    sharpen = [
+        [0, -1, 0],
+        [-1, 5, -1],
+        [0, -1, 0]
     ]
     buffer = np.zeros((nrows, ncols, 3))
 
-    blur = np.array(blur).reshape((1, 3*3)) # so we can dot the source
+    sharpen = np.array(sharpen).reshape((1, 3*3)) # so we can dot the source
 
     for i in range(nrows):
         for j in range(ncols):
@@ -77,7 +77,7 @@ Recall our optimized kernel transformation code
                 for c in range(nchannels):
                     source = img[i-1:i+2, j-1:j+2, c].reshape((3*3, 1))
                     # x10: Massive performance gains for matrix multiply with GPUs
-                    buffer[i][j][c] = np.dot(blur, source)
+                    buffer[i][j][c] = np.matmul(sharpen, source)
 
     buffer = np.clip(buffer, 0, 255).astype(int)
 

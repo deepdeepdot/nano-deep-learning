@@ -351,14 +351,14 @@ http://setosa.io/ev/image-kernels/
     buffer = np.clip(buffer, 0, 255).astype(int)
 
 
-### 2D Matrices Transformations
+### 2D Matrix Transformations
 
 * https://thebookofshaders.com/08/
   - Translation
   - Rotation
   - Scaling
 
-- No worries. This will be covered in your algebra class!
+- No worries. This will be in your algebra class!
 
 * Interactive Algebra
 http://immersivemath.com/ila/index.html
