@@ -1,5 +1,35 @@
 ## Image filters
 
+### Assignment preparation
+
+1. Download and install Anaconda.
+2. Create the *nanos* environment with python=3.6 and matplotlib and numpy
+
+    # Download and install Anaconda
+    $ conda create -n nanos python=3.6 ipython
+    $ conda activate nanos
+    $ conda install matplotlib
+    $ conda install numpy
+
+3. Clone the repository: github.com/deepdeepdot/nano-deep-learning-in-7-sessions
+
+    $ git clone https://github.com/deepdeepdot/nano-deep-learning-in-7-sessions.git
+    $ cd nano-deep-learning-in-7-sessions
+
+4. Run the examples in the the *src* folder
+
+    $ cd src
+    $ python 01_01_greyscale.py
+    $ python 01_02_downsampling.py
+    $ python 01_06_image_kernel.py
+
+    # Check in the /out for the resulting images
+    # Pick your own images (and replace panda-corner.jpg)
+    # To keep the sci-fi theme, pick few images in this space, or if you have some strong preference, pick your own.
+
+5. Go over the assignment: downsampling, upsampling, greys and tints and image filters. The last exercise in *Matrix* is optional, but see if you can figure it out
+
+
 ### Image compression using strides
 
 1. Image stride, we have covered stride = 2 and this reduces the size of the image by a quarter (1/2 width * 1/2 height = 1/4 image).
@@ -62,11 +92,12 @@ Given a map of filters, produce different images
 
 Recall our optimized kernel transformation code
 
-    sharpen = [
-        [0, -1, 0],
-        [-1, 5, -1],
-        [0, -1, 0]
+    emboss = [
+        [-2, -1, 0],
+        [-1, 1, 1],
+        [0, 1, 2]
     ]
+
     buffer = np.zeros((nrows, ncols, 3))
 
     sharpen = np.array(sharpen).reshape((1, 3*3)) # so we can dot the source
@@ -77,7 +108,7 @@ Recall our optimized kernel transformation code
                 for c in range(nchannels):
                     source = img[i-1:i+2, j-1:j+2, c].reshape((3*3, 1))
                     # x10: Massive performance gains for matrix multiply with GPUs
-                    buffer[i][j][c] = np.matmul(sharpen, source)
+                    buffer[i][j][c] = np.matmul(emboss, source)
 
     buffer = np.clip(buffer, 0, 255).astype(int)
 

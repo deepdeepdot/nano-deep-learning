@@ -314,10 +314,10 @@ http://setosa.io/ev/image-kernels/
 
 #### Ex: Image kernel
 
-    sharpen = [
-        [0, -1, 0],
-        [-1, 5, -1],
-        [0, -1, 0]
+    emboss = [
+        [-2, -1, 0],
+        [-1, 1, 1],
+        [0, 1, 2]
     ]
     buffer = np.zeros((nrows, ncols, 3))
 
@@ -326,17 +326,17 @@ http://setosa.io/ev/image-kernels/
             for c in range(nchannels):
                 source = img[i-1:i+2, j-1:j+2, c]
                 # Wait: sum of products? this looks familiar, right?
-                buffer[i][j][c] = np.sum(np.multiply(source, sharpen))
+                buffer[i][j][c] = np.sum(np.multiply(source, emboss))
 
     buffer = np.clip(buffer, 0, 255).astype(int)
 
 
 #### Ex: Image kernel using matrix multiply
 
-    sharpen = [
-        [0, -1, 0],
-        [-1, 5, -1],
-        [0, -1, 0]
+    emboss = [
+        [-2, -1, 0],
+        [-1, 1, 1],
+        [0, 1, 2]
     ]
     buffer = np.zeros((nrows, ncols, 3))
 
@@ -347,7 +347,7 @@ http://setosa.io/ev/image-kernels/
             for c in range(nchannels):
                 source = img[i-1:i+2, j-1:j+2, c].reshape((3*3, 1))
                 # x10: Massive performance gains for matrix multiply if numpy supports GPU
-                buffer[i][j][c] = np.matmul(sharpen, source)
+                buffer[i][j][c] = np.matmul(emboss, source)
 
     buffer = np.clip(buffer, 0, 255).astype(int)
 
