@@ -118,8 +118,8 @@ Buckle your seatbelt Dorothy, <br>
 
          # Double Array of 3 rows and 4 columns
     [8]: double_array = [[i*p+1 for i in range(4)] for p in range(3)]
-    [9]: print(len(double_array[0]), "rows x",
-               len(double_array), "columns")
+    [9]: print(len(double_array), "rows x",
+               len(double_array[0]), "columns")
 
 
 ### Python Challenges
@@ -179,7 +179,7 @@ http://matrixmultiplication.xyz/
 
     X = A * B
 
-    X[i,j] = Sum(A[i,k] * B[k,j]) over all i,j,k
+    X[i,j] = Sum(A[i,k] * B[k,j]) over all rows i, columns j, k
 
     A: m x n (m rows by n columns)
     B: n x p (n rows by p columns)
@@ -223,6 +223,13 @@ http://matrixmultiplication.xyz/
     * How many color combinations can we achieve in a pixel?
     * How many pixels can we have in a 5 mpx, 12 mpx, 24 mpx?
       What would be the width/height of such images?
+
+
+#### Installing Python libraries
+
+    $ conda activate nanos
+    $ conda install matplotlit
+    $ conda install numpy
 
 
 #### Ex: Create a greyscale image
@@ -283,7 +290,7 @@ Can you code this?
 
     for row in range(2, half_rows-2):
         for col in range(2, half_cols-2):
-            selection = img[row*2:(row+1)*2, col*s:(col+1)*2,:]
+            selection = img[row*2:(row+1)*2, col*2:(col+1)*2,:]
             for c in range(nchannels):
                 buffer[row, col, c] = np.max(selection[:,:,c])
 
@@ -339,7 +346,7 @@ http://setosa.io/ev/image-kernels/
             for c in range(nchannels):
                 source = img[i-1:i+2, j-1:j+2, c].reshape((3*3, 1))
                 # x10: Massive performance gains for matrix multiply if numpy supports GPU
-                buffer[i][j][c] = np.dot(blur, source)
+                buffer[i][j][c] = np.matmul(blur, source)
 
     buffer = np.clip(buffer, 0, 255).astype(int)
 

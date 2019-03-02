@@ -1,3 +1,4 @@
+# conda install pillow
 from PIL import Image, ImageDraw
 
 image = Image.open("panda-corner.jpg")
