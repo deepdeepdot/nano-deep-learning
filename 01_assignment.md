@@ -62,7 +62,7 @@ Given a map of filters, produce different images
 
 Recall our optimized kernel transformation code
 
-   blur = [
+    blur = [
         [0.0625, 0.125, 0.0625],
         [0.125, 0.25, 0.125],
         [0.0625, 0.125, 0.0625]

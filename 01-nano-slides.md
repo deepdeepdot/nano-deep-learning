@@ -42,7 +42,7 @@ Buckle your seatbelt Dorothy, <br>
 
     $ python --version
     $ conda env list
-    $ conda create -n nanos python=3.6
+    $ conda create -n nanos python=3.6 ipython
     $ conda activate nanos
     $ python --version
 
@@ -146,7 +146,6 @@ Buckle your seatbelt Dorothy, <br>
 
 - Python<br/>
 http://cs231n.github.io/python-numpy-tutorial/
-https://www.udemy.com/deep-learning-prerequisites-the-numpy-stack-in-python/
 
 - List Comprehension<br/>
 https://treyhunner.com/2015/12/python-list-comprehensions-now-in-color/
@@ -266,6 +265,7 @@ http://matrixmultiplication.xyz/
 
     img.shape, smaller.shape
 
+    # This is NOT image compressions. This is cropping!
     # What should be the value of each pixel???
 
 
@@ -313,10 +313,10 @@ http://setosa.io/ev/image-kernels/
 
 #### Ex: Image kernel
 
-    blur = [
-        [0.0625, 0.125, 0.0625],
-        [0.125, 0.25, 0.125],
-        [0.0625, 0.125, 0.0625]
+    sharpen = [
+        [0, -1, 0],
+        [-1, 5, -1],
+        [0, -1, 0]
     ]
     buffer = np.zeros((nrows, ncols, 3))
 
@@ -325,17 +325,17 @@ http://setosa.io/ev/image-kernels/
             for c in range(nchannels):
                 source = img[i-1:i+2, j-1:j+2, c]
                 # Wait: sum of products? this looks familiar, right?
-                buffer[i][j][c] = np.sum(np.multiply(source, blur))
+                buffer[i][j][c] = np.sum(np.multiply(source, sharpen))
 
     buffer = np.clip(buffer, 0, 255).astype(int)
 
 
 #### Ex: Image kernel using matrix multiply
 
-    blur = [
-        [0.0625, 0.125, 0.0625],
-        [0.125, 0.25, 0.125],
-        [0.0625, 0.125, 0.0625]
+    sharpen = [
+        [0, -1, 0],
+        [-1, 5, -1],
+        [0, -1, 0]
     ]
     buffer = np.zeros((nrows, ncols, 3))
 
@@ -346,7 +346,7 @@ http://setosa.io/ev/image-kernels/
             for c in range(nchannels):
                 source = img[i-1:i+2, j-1:j+2, c].reshape((3*3, 1))
                 # x10: Massive performance gains for matrix multiply if numpy supports GPU
-                buffer[i][j][c] = np.matmul(blur, source)
+                buffer[i][j][c] = np.matmul(sharpen, source)
 
     buffer = np.clip(buffer, 0, 255).astype(int)
 
