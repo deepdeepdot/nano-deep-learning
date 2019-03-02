@@ -168,6 +168,7 @@ https://treyhunner.com/2015/12/python-list-comprehensions-now-in-color/
         [2, 6, 10],
         [3, 7, 11]
     ]
+    # Move each row into a column
 
 Python challenge: Implement transpose()
 
