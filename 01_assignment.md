@@ -5,27 +5,27 @@
 1. Download and install Anaconda.
 2. Create the *nanos* environment with python=3.6 and matplotlib and numpy
 
-    # Download and install Anaconda
-    $ conda create -n nanos python=3.6 ipython
-    $ conda activate nanos
-    $ conda install matplotlib
-    $ conda install numpy
+        # Download and install Anaconda
+        $ conda create -n nanos python=3.6 ipython
+        $ conda activate nanos
+        $ conda install matplotlib
+        $ conda install numpy
 
 3. Clone the repository: github.com/deepdeepdot/nano-deep-learning-in-7-sessions
 
-    $ git clone https://github.com/deepdeepdot/nano-deep-learning-in-7-sessions.git
-    $ cd nano-deep-learning-in-7-sessions
+        $ git clone https://github.com/deepdeepdot/nano-deep-learning-in-7-sessions.git
+        $ cd nano-deep-learning-in-7-sessions
 
 4. Run the examples in the the *src* folder
 
-    $ cd src
-    $ python 01_01_greyscale.py
-    $ python 01_02_downsampling.py
-    $ python 01_06_image_kernel.py
+        $ cd src
+        $ python 01_01_greyscale.py
+        $ python 01_02_downsampling.py
+        $ python 01_06_image_kernel.py
 
-    # Check in the /out for the resulting images
-    # Pick your own images (and replace panda-corner.jpg)
-    # To keep the sci-fi theme, pick few images in this space, or if you have some strong preference, pick your own.
+        # Check in the /out for the resulting images
+        # Pick your own images (and replace panda-corner.jpg)
+        # To keep the sci-fi theme, pick few images in this space, or if you have some strong preference, pick your own.
 
 5. Go over the assignment: downsampling, upsampling, greys and tints and image filters. The last exercise in *Matrix* is optional, but see if you can figure it out
 
