@@ -63,7 +63,7 @@ Another one way is to fill up with zeros
 
 1. We learned how to make grayscale images, let's create 'red', or 'green', or 'blue' versions.
 
-colored_image = transform_image(image, filter='red')
+        colored_image = transform_image(image, filter='red')
 
 2. How about yellow? How about any rgb color?
 3. Extra: How can transform to a Hue of 270 degrees (magenta/purple)
