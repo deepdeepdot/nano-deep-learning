@@ -146,7 +146,7 @@ Let's rewrite the code, so that we compute:
 
     buffer[i][j][c] = np.dot(source, blur)
 
-(Hint: we need to reshape diffrently)
+(Hint: we need to reshape differently)
 
 Will the image result be the same? Why?
 
