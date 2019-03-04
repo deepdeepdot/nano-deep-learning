@@ -66,7 +66,7 @@ Another one way is to fill up with zeros
         colored_image = transform_image(image, filter='red')
 
 2. How about yellow? How about any rgb color?
-3. Extra: How can transform to a Hue of 270 degrees (magenta/purple)
+3. Extra: How can we transform to a Hue of 270 degrees (magenta/purple)
    See: https://en.wikipedia.org/wiki/HSL_and_HSV#Conversion_RGB_to_HSL/HSV_used_commonly_in_software_programming
 
 
