@@ -11,10 +11,10 @@
         $ conda install matplotlib
         $ conda install numpy
 
-3. Clone the repository: github.com/deepdeepdot/nano-deep-learning-in-7-sessions
+3. Clone the repository: github.com/deepdeepdot/nano-deep-learning
 
-        $ git clone https://github.com/deepdeepdot/nano-deep-learning-in-7-sessions.git
-        $ cd nano-deep-learning-in-7-sessions
+        $ git clone https://github.com/deepdeepdot/nano-deep-learning.git
+        $ cd nano-deep-learning
 
 4. Run the examples in the the *src* folder
 

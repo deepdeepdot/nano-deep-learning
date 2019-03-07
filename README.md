@@ -53,7 +53,7 @@ I decided not to recreate slides that have been wonderfully created by other fre
 * Tensorflow: http://web.stanford.edu/class/cs20si/syllabus.html
 
 
-### Sections
+### Sections (tentative)
 
 [Session #1](01-nano-slides.md)
 * Math: Matrix
@@ -64,28 +64,24 @@ Session #2
 * Math: Slope of a function (derivative)
 * Functional Python: lambdas, map
 * Plotting a function using matplotlib
+* Scrapping ABC Music files
 
 Session #3
 * Math: Normal distribution
 * Binary tree and tree recursion
 
-
 Session #4
 * Neural Networks
-Slides: http://introtodeeplearning.com/materials/2019_6S191_L1.pdf
-
+* Slides: http://introtodeeplearning.com/materials/2019_6S191_L1.pdf
 
 Session #5
 * Sequence modeling: RNN, GRU, LSTM
-Slides: http://introtodeeplearning.com/materials/2019_6S191_L2.pdf
-
+* Slides: http://introtodeeplearning.com/materials/2019_6S191_L2.pdf
 
 Session #6
 * Computer vision: CNN, ConvNets
-Slides: http://introtodeeplearning.com/materials/2019_6S191_L3.pdf
-
+* Slides: http://introtodeeplearning.com/materials/2019_6S191_L3.pdf
 
 Session #7
 * GANS
-Slides: http://introtodeeplearning.com/materials/2019_6S191_L4.pdf
-
+* Slides: http://introtodeeplearning.com/materials/2019_6S191_L4.pdf
