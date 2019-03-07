@@ -1,4 +1,4 @@
-## I. What's the Matrix?
+## I. What is the Matrix?
 
 ![The Matrix Image](img/matrix_reboot.jpg)
 
@@ -266,7 +266,7 @@ http://matrixmultiplication.xyz/
 
     img.shape, smaller.shape
 
-    # This is NOT image compressions. This is cropping!
+    # This is NOT image compression. This is image cropping!
     # What should be the value of each pixel???
 
 
@@ -275,7 +275,7 @@ http://matrixmultiplication.xyz/
 <!-- (https://adeshpande3.github.io/assets/MaxPool.png) -->
 ![MaxPooling Image](img/maxpool.png)
 
-Can you code this?
+Can you code this? We take the maximum in the square
 
 
 #### Ex: Downsampling
@@ -360,6 +360,7 @@ http://setosa.io/ev/image-kernels/
   - Scaling
 
 - No worries. This will be in your algebra class!
+- Computer Graphics depends heavily on matrix transforms.
 
 * Interactive Algebra
 http://immersivemath.com/ila/index.html

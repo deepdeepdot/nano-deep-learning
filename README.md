@@ -1,9 +1,9 @@
-### Nano Deep Learning in 7 Sessions
+### Nano Deep Learning for Teens in 7 Sessions
 
 This course was prepared for the Nanohacker community
 
-    $ git clone https://github.com/deepdeepdot/nano-deep-learning-in-7-sessions.git
-    $ cd nano-deep-learning-in-7-sessions
+    $ git clone https://github.com/deepdeepdot/nano-deep-learning.git
+    $ cd nano-deep-learning
 
 
 If you have python 2.7
@@ -69,14 +69,23 @@ Session #3
 * Math: Normal distribution
 * Binary tree and tree recursion
 
+
 Session #4
 * Neural Networks
+Slides: http://introtodeeplearning.com/materials/2019_6S191_L1.pdf
+
 
 Session #5
-* RNN, GRU, LSTM
+* Sequence modeling: RNN, GRU, LSTM
+Slides: http://introtodeeplearning.com/materials/2019_6S191_L2.pdf
+
 
 Session #6
-* CNN, ConvNets
+* Computer vision: CNN, ConvNets
+Slides: http://introtodeeplearning.com/materials/2019_6S191_L3.pdf
+
 
 Session #7
 * GANS
+Slides: http://introtodeeplearning.com/materials/2019_6S191_L4.pdf
+
