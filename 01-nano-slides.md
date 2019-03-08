@@ -275,7 +275,7 @@ http://matrixmultiplication.xyz/
 <!-- (https://adeshpande3.github.io/assets/MaxPool.png) -->
 ![MaxPooling Image](img/maxpool.png)
 
-Can you code this? We take the maximum in the square
+Can you code this? We take the maximum in each colored square
 
 
 #### Ex: Downsampling
@@ -347,7 +347,7 @@ http://setosa.io/ev/image-kernels/
             for c in range(nchannels):
                 source = img[i-1:i+2, j-1:j+2, c].reshape((3*3, 1))
                 # x10: Massive performance gains for matrix multiply if numpy supports GPU
-                buffer[i][j][c] = np.matmul(emboss, source)
+                buffer[i][j][c] = np.matmul(emboss, source)  # np.dot = np.matmul for 2D
 
     buffer = np.clip(buffer, 0, 255).astype(int)
 
@@ -359,7 +359,7 @@ http://setosa.io/ev/image-kernels/
   - Rotation
   - Scaling
 
-- No worries. This will be in your algebra class!
+- No worries. This will be covered in your algebra class!
 - Computer Graphics depends heavily on matrix transforms.
 
 * Interactive Algebra
@@ -374,6 +374,24 @@ http://immersivemath.com/ila/index.html
 * Image api: https://matplotlib.org/users/image_tutorial.html
 * Pixels: https://processing.org/tutorials/pixels/
 * RGB: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool
+
+
+#### Python Docstring
+
+    def myFunction(path, field_storage, temporary):
+    """
+    Args:
+        path (str): The path of the file to wrap
+        field_storage (FileStorage): The :class:`FileStorage` instance to wrap
+        temporary (bool): Whether or not to delete the file when the File
+        instance is destructed
+
+    Returns:
+        BufferedFileStorage: A buffered writable file descriptor
+    """
+
+* Sphynx:
+   https://sphinxcontrib-napoleon.readthedocs.io/en/latest/index.html
 
 
 ### Python Style Guide
