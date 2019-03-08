@@ -1,6 +1,6 @@
 ### Nano Deep Learning for Teens in 7 Sessions
 
-This course was prepared for the Nanohacker community
+This course was prepared for the [Nanohacker](https://www.nanohackers.org/) community. Thanks to [Thoughtworks](https://www.thoughtworks.com/locations/new-york) for hosting our sessions!
 
     $ git clone https://github.com/deepdeepdot/nano-deep-learning.git
     $ cd nano-deep-learning
@@ -21,13 +21,15 @@ If you have python 3
 It requires proficiency in a programming language, say Ruby or Javascript.
 Also, it assumes knowledge of basic git commands and github.
 We'll cover some computer science topics like trees, functional 
-programming using Python, uses of classes.
+programming using Python, and classes in Python.
 
 Prerequisites
 * Experience with programming
 * Full stack web development
 
 Math Cheatsheet https://www.flickr.com/photos/95869671@N08/40544016221
+![Match Cheatsheet Image](img/math-cheatsheet.jpg)
+
 
 * Math concepts: matrix, functions, basic stats
 * Programming with Python: images, plotting functions

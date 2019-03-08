@@ -15,4 +15,6 @@ for row in range(2, half_rows-2):
 
 #plt.imshow(buffer)
 #plt.show()
-plt.imsave("out/panda-on-a-diet.png", buffer)
+
+buffer = buffer.astype(np.uint8)
+plt.imsave("out/panda-on-a-diet.jpg", buffer, quality=80)

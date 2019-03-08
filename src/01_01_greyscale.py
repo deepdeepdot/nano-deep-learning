@@ -14,4 +14,6 @@ for row in range(nrows):
         greyed[row,col,:] = avg
 
 plt.imshow(greyed), plt.show()
+
+greyed = greyed.astype(np.uint8)
 plt.imsave("out/panda-grey.png", greyed)
