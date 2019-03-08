@@ -342,7 +342,22 @@ https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook
 
     (1.5, Y(1.5)), 10  # 10 steps to get estimate the minimum 1.5, Y(1.5))
 
-    The challenge is to determine the "step" to determine the next 2 points to get the slope.
+    The challenge is how to determine the "step" to get to the next 2 points to get the slope.
+
+
+### Data sets
+    * http://deeplearning.net/datasets/
+    * https://www.kaggle.com/datasets
+
+    - CIFAR10
+    - MNIST
+    - ImageNet
+    - MovieLens
+    - Celebs
+    - MScoco
+
+    Celebs, 200,000 images of celebrities
+    http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 
 
 ### ABC 
