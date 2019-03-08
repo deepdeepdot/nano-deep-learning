@@ -113,38 +113,29 @@ Recall our optimized kernel transformation code
     buffer = np.clip(buffer, 0, 255).astype(int)
 
 
-Our optimization involved using the dot product of the blur and source
+Our optimization involved using the dot product of the emboss and source
 
 Our original computation was
 
-    buffer[i][j][c] = np.sum(np.multiply(source, blur))
+    buffer[i][j][c] = np.sum(np.multiply(source, emboss))
 
 But we wanted to convert to:
 
-    buffer[i][j][c] = np.dot(blur, source)
+    buffer[i][j][c] = np.dot(emboss, source)
 
 In order to this, we needed to reshape our matrices to vectors
 
-    blur: 3x3 -> 1 x (3*3)
+    emboss: 3x3 -> 1 x (3*3)
     source: 3x3 -> (3*3) x 1
 
-    blur = np.array(blur).reshape((1, 3*3))
+    emboss = np.array(emboss).reshape((1, 3*3))
     source = source.reshape((3*3, 1))
-
-
-But first we needed to reshape both the blur filter and the source
-
-    blur: 1 x (3*3)
-    source: (3*3) x 1
-
-    blur = np.array(blur).reshape((1, 3*3))
-    source = source.reshape((3*3, 1))
-    buffer[i][j][c] = np.dot(blur, source)
+    buffer[i][j][c] = np.dot(emboss, source)
 
 
 Let's rewrite the code, so that we compute:
 
-    buffer[i][j][c] = np.dot(source, blur)
+    buffer[i][j][c] = np.dot(source, emboss) # See the order swap
 
 (Hint: we need to reshape differently)
 

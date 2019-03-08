@@ -19,7 +19,7 @@ for i in range(1, nrows-1):
             source = img[i-1:i+2, j-1:j+2, c]
             buffer[i][j][c] = np.sum(np.multiply(source, emboss))
 
-buffer = np.clip(buffer, 0, 255).astype(int)
+buffer = np.clip(buffer, 0, 255).astype(np.int8)
 plt.imsave(f"out/panda-emboss.png", buffer)
 
 print("Done!")

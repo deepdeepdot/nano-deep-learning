@@ -63,8 +63,8 @@ I decided not to recreate slides that have been wonderfully created by other fre
 * Python installation, running
 
 Session #2
-* Math: Slope of a function (derivative)
-* Functional Python: lambdas, map
+* Math: Slope of a function
+* Python: lambdas, map, numpy
 * Plotting a function using matplotlib
 * Scrapping ABC Music files
 
