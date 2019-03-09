@@ -58,7 +58,7 @@ Use matplotlib. Determine good values for a,b,c
     plt.plot(X, Y(X))
     plt.savefig('plot_pow4.png')
 
-We want to reproduce this image of the function
+We want to reproduce this image of the function<br/>
 ![Plot function for assignment Image](img/plot-power-ex.png)
 
 ### 6. ABC music
