@@ -63,13 +63,13 @@ I decided not to recreate slides that have been wonderfully created by other fre
 * Python installation, running
 
 Session #2
-* Math: Slope of a function
+* Jupyter notebooks and ipython
 * Python: lambdas, map, numpy
 * Plotting a function using matplotlib
-* Scrapping ABC Music files
 
 Session #3
-* Math: Normal distribution
+* Math: Slope of a function
+* Scrapping ABC Music files
 * Binary tree and tree recursion
 
 Session #4
