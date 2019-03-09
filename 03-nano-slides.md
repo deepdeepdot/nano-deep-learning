@@ -168,15 +168,12 @@ http://abcnotation.com/examples
     import urllib
     import os
 
-    def downloadResource(url, folder):
-        try:
-            file = getFilename(url)
-            path = os.path.join(folder, file)
-            if os.path.exists(path):
-                return # skip already downloaded files (maybe check size > 0?)
-            urllib.request.urlretrieve(url, path)
-        except:
-            print("Failed for", url)
+    def downloadResource(url, folder="."):
+        file = getFilename(url)
+        path = os.path.join(folder, file)
+        if os.path.exists(path):
+            return # skip already downloaded files (maybe check size > 0?)
+        urllib.request.urlretrieve(url, path)
 
 
 #### Download a web resource
@@ -203,14 +200,11 @@ http://abcnotation.com/examples
 #### Add a default 'file' parameter
 
     def downloadResource(url, folder='.', name=None):
-        try:
-            file = name or getFilename(url)
-            path = os.path.join(folder, file)
-            if os.path.exists(path):
-                return # skip already downloaded files (maybe check size > 0?)
-            urllib.request.urlretrieve(url, path)
-        except:
-            print("Failed for", url)
+        file = name or getFilename(url)
+        path = os.path.join(folder, file)
+        if os.path.exists(path):
+            return # skip already downloaded files (maybe check size > 0?)
+        urllib.request.urlretrieve(url, path)
 
     # Download an ABC song page
     url = "/tunePage?a=ifdo.ca/~seymour/runabc/esac/HAN2/0495"
