@@ -11,8 +11,7 @@ def upsample(input, output, stride=4):
     s = stride
     for row in range(nrows):
         for col in range(ncols):
-            for c in range(nfilters):
-                buffer[row*s:(row+1)*s, col*s:(col+1)*s, c] = img[row, col, c]
+            buffer[row*s:(row+1)*s, col*s:(col+1)*s, :] = img[row, col, :]
 
     plt.imsave(output, buffer.astype(np.uint8))
     # plt.imshow(buffer)
