@@ -1,4 +1,3 @@
-# conda
 import urllib.request
 import os
 

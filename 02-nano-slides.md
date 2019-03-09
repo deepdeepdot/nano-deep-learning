@@ -108,8 +108,8 @@ https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook
 
     vals = np.arange(10)
     vals = vals + 10
-    idx = [2, 3, 5]
-    vals[idx]
+    idxs = [2, 3, 5]
+    vals[idxs]
 
 
 #### Lambdas
@@ -230,7 +230,7 @@ https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook
     s = np.cos(2*np.pi*t)
     line, = plt.plot(t, s, lw=2)
 
-    plt.annotate('local max', xy=(2, 1), xytext=(3, 1.5),
+    plt.annotate('This is the stock market crash', xy=(2, 1), xytext=(3, 1.5),
         arrowprops=dict(facecolor='black', shrink=0.05),
     )
 

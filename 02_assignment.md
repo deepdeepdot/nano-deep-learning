@@ -1,4 +1,14 @@
-### 1. Numpy
+### 1. Jupyter notebooks
+
+    # Make sure to install jupyter in your environment
+    conda install jupyter
+
+    git clone https://github.com/jakevdp/WhirlwindTourOfPython.git
+    cd WhirlwindTourOfPython  
+    jupyter notebook .
+
+
+### 2. Numpy
 Use numpy array commands to get the following matrix (3,3,3)
 
     array([[[ 5,  6,  7],
@@ -13,14 +23,14 @@ Use numpy array commands to get the following matrix (3,3,3)
             [26, 27, 28],
             [29, 30, 31]]])
 
-### 2. Numpy #2
+### 3. Numpy #2
 Use numpy to get the following (2,2) matrix
 
     array([[20, 18, 16],
         [14, 12, 10],
         [ 8,  6,  4]])
 
-### 3. Upsampling
+### 4. Upsampling
 
 One way to upsample is the following
 
@@ -49,7 +59,7 @@ Hint: It shouldn't be a lot of code changes, just 2 lines (one new line, one mod
 
 The resulting image will look darker due to the zeros, how we can lighten it up?
 
-### 4. Matplotlib
+### 5. Matplotlib
 Use matplotlib. Determine good values for a,b,c
 
     X = np.linspace(a,b,c)
@@ -78,7 +88,7 @@ Exampes: http://abcnotation.com/examples
     wedding
     chinese
 
-### 7. Papparazzi
+### 8. Papparazzi
 
 Machine Learning depends on massive amounts of data. In this exercise, we'll learn how to chase images of celebrities.
 
