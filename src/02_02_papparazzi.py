@@ -1,4 +1,5 @@
-import urllib
+# conda
+import urllib.request
 import os
 
 def getFilename(link):
@@ -7,18 +8,15 @@ def getFilename(link):
     return link[idx:]
 
 def downloadResource(url, folder="."):
-    try:
-        file = getFilename(url)
-        path = os.path.join(folder, file)
-        if os.path.exists(path):
-            return # skip already downloaded files (maybe check size > 0?)
-        urllib.request.urlretrieve(url, path)
-    except:
-        print("Failed for", url)
-
+    file = getFilename(url)
+    path = os.path.join(folder, file)
+    print(file, path)
+    if os.path.exists(path):
+        return # skip already downloaded files (maybe check size > 0?)
+    urllib.request.urlretrieve(url, path)
 
 url = "https://news.ycombinator.com/y18.gif"
 filename = getFilename(url)
 
-url = "https://s3.amazonaws.com/cadl/celeb-align/000010.jpg"
+url = "http://s3.amazonaws.com/cadl/celeb-align/000010.jpg"
 downloadResource(url)
