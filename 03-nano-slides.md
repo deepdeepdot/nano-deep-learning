@@ -1,123 +1,32 @@
-#### Slope - rate of change
-
-### m = (y2 - y1) / (x2 - x1)
-
-- It's like a ladder
-* m=1: for every step in X, we move one step in Y
-* m=2: for every step in X, we move 2 steps in Y
-* m=10: for every step in X, 10 steps in Y
-* m=0.5: for every step in X, half a step in Y
-* m=-1: for every step in X, one step back in Y
+### III. Music and Slope
 
 
-#### Slope
+### Topics
 
-    %pylab
-    X = np.linspace(-5,5,100)
-    plt.plot(X, X**2-3*X+10)
-
-    # Let's plot the slope for (4,14) - (3,10)
-    # slope = (y2 - y1) / (x2 - x1) = (14-10) / (4-3) = 4
-    plt.plot(X, 4*X) # Not quite there as the tangent
-
-    plt.plot(X, 4*X-3) # Quite close!
-    plt.plot(X, 4*X-2.4) # Quite close!
+* Music generation with Deep Learning
+* ABC files
+* Scraping web resources
+* Slope of a function
 
 
-#### How do we find the minimum of a function?
-    - By approximation. How? How many steps?
+### Irish Tunes with Deep Learning
 
-    Y = lambda x: x**2 - 3*x + 10
-    plt.plot(X, Y(X))
+- Visit
+https://github.com/aamini/introtodeeplearning_labs/blob/master/lab1/Part2_music_generation_solution.ipynb
 
-    Pick 2 points, compute the slope
-    p1 = (3, Y(3)) # 10?
-    p2 = (4, Y(4)) # 14?
-    slope = (p2[1] - p1[1]) / (p2[0] - p1[0])
-    # slope = 4    # quite steep!
-    plt.plot(X, X*slope)
-    plt.plot(X, X*slope-2.4)
-    plt.plot(X, X)
+- Click on "Run in Google Colab"
+- Execute each cell
 
 
-#### Let's go to the right?
+### Make your own music generator
 
-    # How do we find out the zero slope?
-    # Well, the slope is 4, very steep and positive.
-    # For a "convex" function, we want to go opposite the slope direction
-
-    step = -1
-    p1 = (2, Y(2))
-    p2 = (3, Y(3))
-    slope = (p2[1] - p1[1]) / (p2[0] - p1[0])
-    # slope = 2.0 # The slope has decreased! Keep going!
-    plt.plot(X, slope*X)
-    plt.plot(X, slope*X+4)
-
-
-#### Let's keep searching for the minimum
-    step = -2
-    p1 = (0, Y(0))
-    p2 = (1, Y(1))
-    slope = (p2[1] - p1[1]) / (p2[0] - p1[0])
-    # slope = -2  # Ooops. We are negative!
-    plt.plot(X, X*slope) 
-
-    step = +1
-    p1 = (1, Y(1))
-    p2 = (2, Y(2))
-    slope = (p2[1] - p1[1]) / (p2[0] - p1[0])
-    # slope = 0 
-    plt.plot(X, slope*X)
-    plt.plot(X, slope*X+8)
-
-
-#### Are we there?
-    # But there are many points with slope = 0
-    # Let's get a "better" approximation to Min(x,Y(x))
-
-    step=.49, .51
-    p1 = (1.49, Y(1.49))
-    p2 = (1.51, Y(1.51))
-    slope = (p2[1] - p1[1]) / (p2[0] - p1[0])
-    # slope = 0 # Still zero, but this point is closer to the truth
-    # Guessing that the minimum is at (1.5, Y(1.5))?
-
-    Algorithm
-    Loop
-        Compute the slope at current position
-        Is the slope == 0, break
-        Is the slope positive? go to the left
-        Is the slope negative? go to the right
-
-
-#### Slope competition
-
-    Who will implement the "fastest" search 
-    for the minimum given a lambda as an input. 
-    "Fastest" is defined as the minimum number of 
-    iterations to get the minimum.
-
-    minimum, steps = find_minimum(some_lambda)
-
-    (1.5, Y(1.5)), 10  # 10 steps to get estimate the minimum 1.5, Y(1.5))
-
-    The challenge is how to determine the "step" to get to the next 2 points to get the slope.
-
-
-### Data sets
-    * http://deeplearning.net/datasets/
-    * https://www.kaggle.com/datasets
-
-    - CIFAR10
-    - MNIST
-    - ImageNet
-    - MovieLens
-    - Celebs
-    - MSCOCO
-
-    Celebs, 200,000 images of celebrities
-    http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
+- Workflow: ABC -> MIDI -> WAVE
+- We need to crawl for ABC files on the Internet.
+- Merged all these ABC files into a single text file.
+- Upload this text file to github
+- Replace `path_to_file` with your raw github link
+- Retrieve multiple produced ABC text and save these to your github.
+- Extra: convert ABC to midi using `abc2midi`, convert midi to wave with `timidity`
 
 
 ### ABC 
@@ -137,6 +46,21 @@ http://abcnotation.com/examples
     L:1/4
     K:C
     C, D, E, F,|G, A, B, C|D E F G|A B c d|e f g a|b c' d' e'|f' g' a' b'|]
+
+
+### Data sets
+    * http://deeplearning.net/datasets/
+    * https://www.kaggle.com/datasets
+
+    - CIFAR10
+    - MNIST
+    - ImageNet
+    - MovieLens
+    - Celebs
+    - MSCOCO
+
+    Celebs, 200,000 images of celebrities
+    http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 
 
 #### How to scrape resources from the web
@@ -290,6 +214,113 @@ http://abcnotation.com/examples
 ### https://scrapy.org/
 
 - https://github.com/scrapy/scrapy
+
+
+#### Slope - rate of change
+
+### m = (y2 - y1) / (x2 - x1)
+
+- It's like a ladder
+* m=1: for every step in X, we move one step in Y
+* m=2: for every step in X, we move 2 steps in Y
+* m=10: for every step in X, 10 steps in Y
+* m=0.5: for every step in X, half a step in Y
+* m=-1: for every step in X, one step back in Y
+
+
+#### Slope
+
+    %pylab
+    X = np.linspace(-5,5,100)
+    plt.plot(X, X**2-3*X+10)
+
+    # Let's plot the slope for (4,14) - (3,10)
+    # slope = (y2 - y1) / (x2 - x1) = (14-10) / (4-3) = 4
+    plt.plot(X, 4*X) # Not quite there as the tangent
+
+    plt.plot(X, 4*X-3) # Quite close!
+    plt.plot(X, 4*X-2.4) # Quite close!
+
+
+#### How do we find the minimum of a function?
+    - By approximation. How? How many steps?
+
+    Y = lambda x: x**2 - 3*x + 10
+    plt.plot(X, Y(X))
+
+    Pick 2 points, compute the slope
+    p1 = (3, Y(3)) # 10?
+    p2 = (4, Y(4)) # 14?
+    slope = (p2[1] - p1[1]) / (p2[0] - p1[0])
+    # slope = 4    # quite steep!
+    plt.plot(X, X*slope)
+    plt.plot(X, X*slope-2.4)
+    plt.plot(X, X)
+
+
+#### Let's go to the right?
+
+    # How do we find out the zero slope?
+    # Well, the slope is 4, very steep and positive.
+    # For a "convex" function, we want to go opposite the slope direction
+
+    step = -1
+    p1 = (2, Y(2))
+    p2 = (3, Y(3))
+    slope = (p2[1] - p1[1]) / (p2[0] - p1[0])
+    # slope = 2.0 # The slope has decreased! Keep going!
+    plt.plot(X, slope*X)
+    plt.plot(X, slope*X+4)
+
+
+#### Let's keep searching for the minimum
+    step = -2
+    p1 = (0, Y(0))
+    p2 = (1, Y(1))
+    slope = (p2[1] - p1[1]) / (p2[0] - p1[0])
+    # slope = -2  # Ooops. We are negative!
+    plt.plot(X, X*slope) 
+
+    step = +1
+    p1 = (1, Y(1))
+    p2 = (2, Y(2))
+    slope = (p2[1] - p1[1]) / (p2[0] - p1[0])
+    # slope = 0 
+    plt.plot(X, slope*X)
+    plt.plot(X, slope*X+8)
+
+
+#### Are we there?
+    # But there are many points with slope = 0
+    # Let's get a "better" approximation to Min(x,Y(x))
+
+    step=.49, .51
+    p1 = (1.49, Y(1.49))
+    p2 = (1.51, Y(1.51))
+    slope = (p2[1] - p1[1]) / (p2[0] - p1[0])
+    # slope = 0 # Still zero, but this point is closer to the truth
+    # Guessing that the minimum is at (1.5, Y(1.5))?
+
+    Algorithm
+    Loop
+        Compute the slope at current position
+        Is the slope == 0, break
+        Is the slope positive? go to the left
+        Is the slope negative? go to the right
+
+
+#### Slope competition
+
+    Who will implement the "fastest" search 
+    for the minimum given a lambda as an input. 
+    "Fastest" is defined as the minimum number of 
+    iterations to get the minimum.
+
+    minimum, steps = find_minimum(some_lambda)
+
+    (1.5, Y(1.5)), 10  # 10 steps to get estimate the minimum 1.5, Y(1.5))
+
+    The challenge is how to determine the "step" to get to the next 2 points to get the slope.
 
 
 #### Music with Magenta.js
