@@ -24,11 +24,11 @@ url = "http://s3.amazonaws.com/cadl/celeb-align/000010.jpg"
 downloadResource(url)
 
 
-def getABCLinksAndNextSearchPageURL(html_doc):
+def getABCLinksAndNextSearchPageURL(searchResultHtml):
     abcLinks = []
     nextPage = None
     
-    soup = BeautifulSoup(html_doc, 'html.parser')
+    soup = BeautifulSoup(searchResultHtml, 'html.parser')
     for link in soup.find_all('a'):
         if link.get_text().find("tune page") == 0:
             abcLinks.append(link.get('href'))
@@ -39,13 +39,27 @@ def getABCLinksAndNextSearchPageURL(html_doc):
     links = [base + link for link in abcLinks]
     return (links, base + nextPage)
 
+# Sample program using getABCLinksAndNextSearchPageURL(searchResultHtml)
+url = "http://abcnotation.com/searchTunes?q=chicken&f=c&o=a&s=0"
+searchResultFilename = "search_result_chicken_00.html"
+downloadResource(url, "download", searchResultFilename)
+searchResultHtml = open(f"download/{searchResultFilename}", 'r').read() 
 
-url = "http://abcnotation.com/searchTunes?q=china&f=c&o=a&s=0"
-html_filename = "search_result_china_00.html"
-downloadResource(url, "download", html_filename)
-html_doc = open(f"download/{html_filename}", 'r').read() 
-
-links, nextSearchResultPageURL = getABCLinksAndNextSearchPageURL(html_doc)
-
+links, nextSearchResultPageURL = getABCLinksAndNextSearchPageURL(searchResultHtml)
 print("Next Search Result URL:", nextSearchResultPageURL)
 print("Song Links: ", links)
+
+
+def getABCSong(songHtml):
+    soup = BeautifulSoup(songHtml, 'html.parser')
+    textarea = soup.find("textarea")
+    song = textarea.contents[0].strip()
+    return song
+
+# Sample program using getABCSong(songHtml)
+url = "/tunePage?a=ifdo.ca/~seymour/runabc/esac/HAN2/0495"
+downloadResource("http://abcnotation.com" + url, "download", "0495.html")
+songHtml = open('download/0495.html', 'r').read()
+song = getABCSong(songHtml)
+
+print(song)

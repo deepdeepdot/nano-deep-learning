@@ -51,6 +51,7 @@ Once all these ABC song text files are saved in the `download` folder, we need t
 Then upload this merged ABC song file to your github repository.
 
 
+
 ### 2. Music generation with Deep Learning
 
 Prerequisites: make sure to upload your ABC song file in github.
@@ -76,4 +77,49 @@ https://raw.githubusercontent.com/aamini/introtodeeplearning_labs/2019/lab1/data
     You will see a collection of Irish folk songs. We want to replace this URL with the one that has *`your`* ABC file.
 
 5) Once you reach to the last cell, copy/paste the resulting ABC songs into a text file, which you'll upload to your github. You can export this abc to a midi file using `EasyABC`. Upload the midi to your github.
+
+
+## Slope approximation
+
+We have seen in class the definition of a slope given two points.
+When trying to find the minimum of a function, we are looking for the place where the slope is zero.
+
+    Y = lambda x: x**2 - 3*x + 10
+    plt.plot(X, Y(X))
+
+    Pick 2 points, compute the slope
+    p1 = (3, Y(3)) # 10?
+    p2 = (4, Y(4)) # 14?
+    slope = (p2[1] - p1[1]) / (p2[0] - p1[0])
+    # slope = 4    # quite steep!
+    plt.plot(X, X*slope)
+    plt.plot(X, X*slope-2.4)
+
+Then we used a step=-1 (left), since slope=4 (positive)<br>
+and used step=-2 (left), since the slope=2 (still positive)<br>
+and used step=+1 (right), since the slope=-2 (negative)<br>
+
+We followed the following algorithm:
+
+    Loop
+        Compute the slope at current position
+        Is the slope == 0, break
+        Is the slope positive? go to the left
+        Is the slope negative? go to the right
+
+The exercise is to implement this algorithm in a function
+
+    def findMinimum(Y):
+        # Find out p1, p2 with slope=0 and small distance between p1 and p2
+        # Count how many iterations we used to find out the slope = 0 (or close to zero)
+        p1 = None
+        p2 = None
+        iterations = None
+        return (p1, p2, iterations)
+
+    Y = lambda x: x**2 - 3*x + 10
+    p1, p2, iterations = findMinimum(Y)
+    print(p1, p2, iterations)
+
+    Try different lambda functions for Y
 

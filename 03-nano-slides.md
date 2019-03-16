@@ -181,7 +181,7 @@ http://abcnotation.com/examples
     from bs4 import BeautifulSoup
 
     # Song page
-    html_doc = open('download/0495.html', 'r').read() 
+    html_doc = open('download/0495.html', 'r').read()
     soup = BeautifulSoup(html_doc, 'html.parser')
     textarea = soup.find("textarea")
     song = textarea.contents[0].strip()
