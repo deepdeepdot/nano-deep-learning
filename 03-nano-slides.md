@@ -193,7 +193,7 @@ http://abcnotation.com/examples
     # See: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
 
-#### Get all the abc links from the index search
+#### Get all the abc links from the search result
 
     # Search result page
     url = "http://abcnotation.com/searchTunes?q=china&f=c&o=a&s=0"
