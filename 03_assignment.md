@@ -34,12 +34,12 @@ The algorithm to scrape ABC songs is roughly this:
     
     while search_result_url is not None:
         download the search_result_page with that search_result_url
-        given the content of this web page, look for all links to a Song Page
+        given the content of this web page, look for all links to a song page
         for each link to a song page:
             download the page with that link
             retrieve the ABC song in that page and save it
 
-        # go to the next link in the Search Result Page (if there's a link)
+        # go to the next link in the search result page (if there's a link)
         search_result_url = "next" link in search_result_page
 
 
