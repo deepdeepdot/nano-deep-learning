@@ -14,11 +14,11 @@ The pages we are interested are:
 
 The URL for the Search Page: http://abcnotation.com/search
 
-If we search for "chicken", we get the first Search Result Page<br/>
+If we search for `"chicken"`, we get the first Search Result Page<br/>
 http://abcnotation.com/searchTunes?q=chicken&f=c&o=a&s=0
 
-If we click on next, we get to the second Search Result Page
-abcnotation.com/searchTunes?q=chicken&f=c&o=a&s=10
+If we click on next, we get to the second Search Result Page<br/>
+http://abcnotation.com/searchTunes?q=chicken&f=c&o=a&s=10
 
 In each Search Result Page, we have links pointing to a Song Page.<br/>
 The pattern we see is that each of those links has the text `tune page`
