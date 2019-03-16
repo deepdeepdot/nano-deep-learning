@@ -89,7 +89,7 @@ http://abcnotation.com/examples
 
 #### Download a resource from the web
 
-    import urllib
+    import urllib.request
     import os
 
     def downloadResource(url, folder="."):
@@ -162,10 +162,10 @@ http://abcnotation.com/examples
 
 #### Web scraper for ABC files for Chinese tunes?
 
-    Go to the index search page (starting at s=0)
+    Go to the search result page (starting at s=0)
     url = "http://abcnotation.com/searchTunes?q=chinese&f=c&o=a&s=0"
 
-    for each index_page
+    for each search_result_page
         find all links to song pages
         for each link in song pages:
             get the content of the song page
@@ -183,7 +183,8 @@ http://abcnotation.com/examples
     # Song page
     html_doc = open('download/0495.html', 'r').read() 
     soup = BeautifulSoup(html_doc, 'html.parser')
-    song = soup.find("textarea")
+    textarea = soup.find("textarea")
+    song = textarea.contents[0].strip()
     links = soup.find_all('a')
 
     for link in links:
@@ -194,10 +195,11 @@ http://abcnotation.com/examples
 
 #### Get all the abc links from the index search
 
-    # Index page
-    url = "http://abcnotation.com/searchTunes?q=chinese&f=c&o=a&s=0"
-    downloadResource(url, "download", "chinese_index.html")
-    html_doc = open('download/chinese_index.html', 'r').read() 
+    # Search result page
+    url = "http://abcnotation.com/searchTunes?q=china&f=c&o=a&s=0"
+    html_filename = "search_result_china_00.html"
+    downloadResource(url, "download", html_filename)
+    html_doc = open(f"download/{html_filename}", 'r').read() 
     soup = BeautifulSoup(html_doc, 'html.parser')
 
     abcLinks = []
