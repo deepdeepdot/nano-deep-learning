@@ -110,6 +110,7 @@ We followed the following algorithm:
 The exercise is to implement this algorithm in a function
 
     def findMinimum(Y):
+        # TODO: implement findMinimum()
         # Find out p1, p2 with slope=0 and small distance between p1 and p2
         # Count how many iterations we used to find out the slope = 0 (or close to zero)
         p1 = None
