@@ -62,17 +62,18 @@ I decided not to recreate slides that have been wonderfully created by other fre
 * Image filters
 * Python installation, running
 
-Session #2
+[Session #2](02-nano-slides.md)
 * Jupyter notebooks and ipython
 * Python: lambdas, map, numpy
 * Plotting a function using matplotlib
 
-Session #3
-* Math: Slope of a function
+[Session #3](03-nano-slides.md)
+* Irish music generation using Deep Learning
 * Scrapping ABC Music files
-* Binary tree and tree recursion
+* Math: Slope of a function
 
 Session #4
+* Binary tree and tree recursion
 * Neural Networks
 * Slides: http://introtodeeplearning.com/materials/2019_6S191_L1.pdf
 
@@ -85,5 +86,5 @@ Session #6
 * Slides: http://introtodeeplearning.com/materials/2019_6S191_L3.pdf
 
 Session #7
-* GANS
-* Slides: http://introtodeeplearning.com/materials/2019_6S191_L4.pdf
+* Homework reviews
+* Final quizz
