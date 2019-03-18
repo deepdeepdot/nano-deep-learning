@@ -1,0 +1,1084 @@
+X:1
+T:1 Galopp  FBb (gL07809)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.183  (gL07809) orig. F,Bb
+S: Basel II. "Mundwilermusig", Tenniken. S.183-219.
+S:Überliefert durch Hermann und Johannes Mundwiler und Ernst Otter.
+%P:ABC
+R:Galopp
+M:2/4
+L:1/8
+K:F %%MIDI gchordon
+[P:A]  "F"ca!>!f2 | Ad !>!c2 | "C7"G>A B>c | "F"d>cc2 | ca!>!f2 | Ad !>!c2 | (3"C7"edc (3bag | "F"ff fz || 
+[P:B] "C7"G>A B>G | "F"A>cf2 | "Bb"a>g f>d | "F"d>cc2 | caf2 | Adc2 | (3"C7"edc (3bag | "F"ff  fz || [K:Bb] 
+[P:C] "F7"a>g f>e | "Bb"d>gf2 | "F7"g>f c>f | "Bb"d>e g>f | "F7"a>g f>e | "Bb"d>gf2 | "F7"a>g a>f | "Bb"b2z2 |] 
+W:
+%W:Parts: ABC
+%W:Anmerkung H.C.: 
+%W:Anmerkung Hrsg,:
+% gL07809
+% August 4, 2018 (Can you read Chinese?)
+
+
+
+X:1
+T:32 Chinesen-Walzer  CF  (wz07613) 
+S:Hanny Christen. Bd.V  Basel II, Jura. S.127  (wz07613) orig. C,F
+T: Basel II. Tänze aus Wintersingen und Ormalingen. S.122-133.
+S:Überliefert durch Schaffner-Suter, Schaub-Forder & Emil Völlmy-Thommen
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+K:C %%MIDI gchordon
+[P:A] ("C"c/B/ d/c/ B/c/) | "F"A2f | "C"e3 | edc | "G7"d3 | dcB | "C"c3 | G3 | c/B/ d/c/ B/c/ | 
+"F"A2f | "C"e3 | edc | "G7"d3 | dcB | ("C"c3 | c)zz  :: [P:B] ("C"cE).G | c3 | (eE).G | 
+e3 | "G7"f2(g/f/) | "C"e2(f/e/) | "G7"d2(e/d/) | "C"c(B/A/)G | (cE).G | c3 | (eG).c | e3 | "G"f2(g/f/ ) | 
+"C"e2(f/e/) | ("G7"d2B) | "C"czz :: [P:C] [K:F] ("F"A2c) | ("Bb"B2d) | ("F"A2c) | zdc | ("C7"e2G) | (d2E) | ("F"A2c) | 
+"Bb"B(dc) | ("F"A2c) | ("Bb"B2d) | ("F"A2c) | zdc | ("C7"e2G) | (d2E) | "F"F>AA | Azz :| 
+W:
+W:Anmerkung H.C.: Var. Böckten, Höfler-Musig, Walliser, Oberdorf, s.V. 362
+% wz07613
+% May 18, 2018
+
+
+
+X: 1
+T: The Chinese
+R: polka
+M: 2/4
+L: 1/8
+K: Dmaj
+d/B/A/F/ D D/D/ | B,/D/D/B,/ D D/D/ | B,/D/D/B,/ D A/G/ | F/D/A/F/ E>F |
+A A/F/ D D/D/ | B,/D/D/B,/ D A/G/ | F/D/A/D/ B/D/A/D/ | E/D/E/F/ D2 |
+A A/F/ D D/D/ | B,/D/D/B,/ D D/D/ | B,/D/D/B,/ D A/G/ | F/D/A/F/ E>F |
+A A/F/ D D/D/ | B,/D/D/B,/ D A/G/ | F/D/A/D/ B/D/A/D/ | E/D/E/F/ D2 |
+E E/E/ E/A/A/A/ | B A/B/ c A | E E/E/ E/d/d/d/ | c/B/c/B/ A2 |
+E E/E/ E/A/A/A/ | B A/B/ c A | E E/E/ E/d/d/d/ | c/B/c/B/ A2 |
+
+
+
+X:3334
+T:Chinese Air
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+F:http://richardrobinson.tunebook.org.uk/Tune/4432
+K:G
+(DG) (G>A) | (Bc) e>d | (cd/)c/ A>F | F>D D2 | \
+(DG)  G>A  |  Bc  e>d |  cd/c/  A>D | DG G2 ||
+AF/A/ d/d/d/d/ | ^ce/G/ B/B/B/B/ | EG/^C/ E/E/E/E/ | (DF/A/) D2 | \
+AF/A/ d/d/d/d/ | ^ce/G/ B/B/B/B/ | EG/^C/ E/E/E/E/ | D_edc |
+_BG_E=F | D_edc | _BG_E=F | D_ed=c |  \
+_BG_EF | DG_EF | DG_EF | DD ED | DD ED ||
+
+
+
+X: 20672
+T: CHINESE AIR
+Q: "Slow and with feeling."
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.67 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: It might be better to change the key signature for each strain.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+(D2G2)(G3A) | (B2c2)(e3d) | (c2dc) (A3F) | F3D D4 |\
+D2G2G3A | (B2c2)(e3d) | (c2dc) (A2D2) | D2G2 "^Fin."G4 H|]
+A2(FA) dddd | ^c2(eG) BBBB | (E2G^C) EEEE | (D2FA) D4 |\
+A2(FA) dddd | ^c2eG BBBB | (E2G^C) EEEE | (D2_e2d2=c2 |
+_B2G2_E2=F2) | (D2_e2d2=c2 | _B2G2_E2=F2) | (D2_e2d2=c2 |\
+_B2G2_E2=F2) | (D2G2_E2=F2) | D2G2_E2=F2 | D2D2 (=E3D) | D3D (HE3"^D.C."D) |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
+X:220
+T:Chinese Air. JaW.220
+M:2/4
+L:1/8
+Q:1/4=100
+S:James Winder Ms, Lancashire, 1835-41
+R:.Air?
+O:England
+A:Wyresdale,Lancashire
+N:Has the feel of a silly quadrille.
+Z:vmp.Chris Partington, Aug 2004
+K:G
+(DG) (G>A)|(Bc) e>d|cd/c/ A>F|F>D D2|!
+(DG) (G>A)|(Bc) e>d|cd/c/ A>D|DG G2||!
+AF/A/ d/d/d/d/|^ce/G/ B/B/B/B/|EG/^C/ E/E/E/E/|D(F/A/) D2|!
+AF/A/ d/d/d/d/|^ce/G/ B/B/B/B/|EG/^C/ E/E/E/E/|D_edc|!
+_BG_E=F|D_edc|_BG_E=F|D_edc|!
+_BG_E=F|DG_E=F|DG_E=F|DDED|DDED|]
+
+
+
+X: 62
+T:Chinese Breakdown
+% Nottingham Music Database
+S:Kevin Briggs, via EF
+M:4/4
+L:1/4
+K:D
+P:A
+A|"D"dd BA|"D"FF2A|"D"dd BA|"Em"E3A|"A"cc BA|"A"cc2B|
+"A7"(3A/2B/2A/2^G/2A/2 BA|"D"F2 -"A7"FA|"D"dd BA|"D"FF2F/2E/2|\
+"D7"D"d"D "c#"E"c"F|"G/b"G4|
+"Em"ee2f/2e/2|"A7"cc2c/2B/2|"A7"AA Bc|"D"dc "A7"de|"D"fa/2f/2 ed|"D"ff3|
+"D"fa/2f/2 ed|"A"c3e|"A"aa2a|"A"gg2B|"A7"cc BB|"D"A2 -"A7"A2|"D"fa/2f/2 ed|
+"D"ff2f/2e/2|"D7"d"d"d "e"c"f#"=c|"G"B4|"Em"ee2f/2e/2|"A7"cc2c/2B/2|"A7"AA Bc|\
+"D"d3||
+
+
+
+X:6
+T:Chinese Breakdown
+% NFF Book 2016
+C:Anon
+H:The origins of this tune are not clear.
+H:It was first recorded in 1925 by the "Dixie String Band" and by others since.
+N:The 1st part is related to a nursery rhyme.
+N:There are many variants available on the Web. Here is one.
+N:"Susie had a baby, She called it Tiny Tim"
+N:"She put it in the bathtub to see if it could swim"
+N:"He drank up all the water, he ate up all the soap"
+N:"He tried to eat the bathtub but it wouldn't go down his throat"
+N:Chinese Breakdown is also related to the Looney Tunes theme tune,
+N:"The Merry-Go-Round Broke Down" written in 1937 by Cliff Friend and Dave Franklyn
+M:4/4
+L:1/8
+K:D
+|:"D"d2A2B2A2|F2F4A2|d2A2B2A2|"A"E4E2A2|c4c3B|c2c4B2|A2AAB2A2|"D"F4F2A2|
+"D"d2c2B2A2|F2F4E2|D2DDE2F2|"G"G4G2B2|"A"e4e2d2|c2c4B2|A2AAB2c2|"D"d4d2c2:|
+"D"f2a2fed2|f2f4e2|f2ffa2g2|"A"e4e4|a4a3e|a2a4a2|a2g2f2e2|"D"f4f2e2|
+"D"f2a2fed2|f2f4e2|d2d2c2=c2|"G"B4B4|"A"e4e2d2|c2c4B2|A2AAB2c2|"D"d4d4||
+
+
+
+X:131
+T:Chinese Breakdown
+C:Trad.
+%%MIDI ratio 3 1
+M:2/4
+L:1/8
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=116
+K:D
+A | "D"dd BA | "D"FF2A | "D"dd BA | "A7"E3A | "A7"cc BA | "A7"cc2B | "A7"AA BA | "D"F2-FA |
+"D"dd BA | "D"FF2 E | "D7"DD EF | "G"G3 d | "Em"ee2 f/e/ | "A7"cc2B | "A7"A>A Bc | "D"d3 z ||
+"D"fa/f/ ed | "D"ff2f | "D"fa/f/ ed | "A7"c3e | "A7"aa2a | "A7"gg2e | "A7"c>c cB | "D"A2-"A7"A2 |
+"D"fa/f/ ed | "D"ff2e | "D7"d>d c=c | "G"B4 | "Em"ee2f/e/ | "A7"cc2B | "A7"A>A Bc | "D"d3 |]
+
+
+
+X:461
+T:Chinese Breakdown
+M:2/4
+L:1/16
+K:D
+(3(ABc)|"D"d2A2 B2A2|F2FF F2(3(ABc)|d2A2 B2A2|"A7"G2GG G2AB|
+"A7"c2A2 B2A2|c2cc c2AB|c2A2 B2A2|"D"F2FF F2(3(ABc)|
+"D"d2A2 B2A2|F2FF F2FE|D2F2 E2F2|"G"G2GG G2cd|
+"A7"e2ee efed|c2cc cdcB|A2AA BAcA|"D"d2dd d2 z2:|
+"D"[F2d2][d2f2] [d2f2]A2|[F2d2][d2f2] [d2f2][A2F2]|d2f2 e2d2|"A7"[c4e4] e2[=c2^g2]|
+"A7"[c2a2][ca][ca] [c2a2][cb][ca]|g2gg gagf|e2^d2 e2=f2|"D"^f6 A2|
+"D"[F2d2][d2f2] [d2f2]A2|[F2d2][d2f2] [d2f2]A2|d2f2 "G"g2"D7"f2|"G"B8|
+"A7"e2ee efed|c2cc cdcB|A2AA BAcA|"D"d2dd d2 z2:|]
+
+
+
+X:1625
+T:Chinese Breakdown
+M:4/4
+O:USA
+O:England
+O:Scotland
+R:Reel
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+F:http://richardrobinson.tunebook.org.uk/Tune/2202
+K:D
+A2| ddBA FF2A | ddBA c3A | \
+ce/c/ BA cc2B | A/A/A/A/ BA F3A |\
+ddBA FF2E | D/D/D/D/ EF G3A |\
+ee e/f/e/d/ cc2B | A/A/A/A/ Bc d2 ::\
+A2| fa/f/ ed ff2A | fa/f/ ed c3 e|\
+aa2^g =gg2e | ce/c/ B/c/B A2z=f |\
+^f2af ed ff2e | d/d/d/d ef g4 |\
+ee e/f/e/d/ cc2B | AABc d2:|
+
+
+
+% BEGIN COMMON HEADER
+% END COMMON HEADER
+X: 5
+T: Chinese Breakdown
+I: Chinese Breakdown	S-C	D	square
+C: S-C
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: D
+P: A
+A2| "D"d2A2 B2A2| F2 F4 A2| d2A2 B2A2| "A"E8| \
+       c2A2 B2A2| c2 c4 B2| A2A2 B2A2| "D"D6 A2|
+    "D"d2A2 B2A2| F2 F4 E2| D2D2 E2F2| "G"G8| \
+    "A"e2 e4 d2| c2 c4 B2| A2A2 B2c2| "D"d8|]
+"D"f2af e2d2| f2 f6| f2af e2d2| "A"c8| \
+   a2aa a2a2| g2 g6| e2c2 B2A2| "D"f8 |
+"D"f2af e2d2| f2 f6| d2d2 e2f2| "G"g8| \
+"A"e2 e4 d2| c2 c4 B2| A2A2 B2c2| "D"d6|]
+
+
+
+X:600
+T:Chinese Breakdown
+M:2/4
+L:1/8
+K:D
+P:A
+A|"D"dd BA|FF2A|dd BA|"A"c3A|cc BA|cc2B|"A7"A>A BA|F3A|
+"D"dd BA|FF2E|"D7"D>D EF|"G"G3d|"Em"ee2d|"A"cc2B|"A7"A>A Bc|"D"d3||
+P:B
+e|"D"fa/f/ ed|ff3|fa/f/ ed|"A"c3e|aa2e|"A7"gg2e|c>ccB|A3d|
+"D"fa/f/ ed|ff2e|"D7"d>d c=c|"G"B3d|"Em"ee2d|"A"cc2B|"A7"A>A Bc|"D"d3||
+
+
+
+X: 1
+T: Chinese Breakdown
+R: reel
+M: 4/4
+L: 1/8
+K: Dmaj
+A2 | d2 d2 B2 A2 | F2 F4 A2 | d2 d2 B2 A2 | E6 A2 |
+c2 c2 B2 A2 | c2 c4 B2 | A3A B2 A2 | F6 A2 |
+d2 d2 B2 A2 | F2 F4 E2 | D2 D2 E2 F2 | G6 d2 |
+e3f g2 e2 | c2 c4 B2 | A2 A2 B2 c2 | d4 e4 |]
+f2 af e2 d2 | f2 f4 f2 | f2 af e2 d2 | c6 e2 |
+a2 a4 a2 | g2 g4 e2 | c3d c2 B2 | A6 e2 |
+f2 af e2 d2 | f2 f4 e2 | d2 d2 c2 =c2 | B6 d2 |
+e3f g2 e2 | ^c2 c4 B2 | A2 A2 B2 c2 | d6 |]
+
+
+
+X: 2
+T: Chinese Breakdown
+R: reel
+M: 4/4
+L: 1/8
+K: Dmaj
+(3ABc | d2A2 BdBA | F2FE F2 (3ABc | d2A2BdBA | G2GF G2AB |
+c2A2BcBA | c3c- c2AB | c2A2BcBA | F3F- F2(3ABc |
+d2A2 BdBA | F2FE F2FE | D2D2 E2F2 | G3G-G4 |
+ee2e- efed | cc2c- cdcB | A2AA B2c2 | d3d- d4 |
+|: ddfd dfdd | ddfd dfdd | ddfd gdfd | B3B- B4 |
+[1 aa2a- abaf | gg2g- gagf| e2^d2 e2=f2 | f3f- f4 :|]
+[2 ABcd efga | bagf edcB | A2AA B2c2 | dBAF D2 |]
+
+
+
+X: 1
+T: Chinese Breakdown
+I: Chinese Breakdown	S-C	D	square
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: D
+P: A
+A2| "D"d2A2 B2A2| F2 F4 A2| d2A2 B2A2| "A"E8| \
+       c2A2 B2A2| c2 c4 B2| A2A2 B2A2| "D"D6 A2|
+    "D"d2A2 B2A2| F2 F4 E2| D2D2 E2F2| "G"G8| \
+    "A"e2 e4 d2| c2 c4 B2| A2A2 B2c2| "D"d8|]
+%
+"D"f2af e2d2| f2 f6| f2af e2d2| "A"c8| \
+   a2aa a2a2| g2 g6| e2c2 B2A2| "D"f8 |
+"D"f2af e2d2| f2 f6| d2d2 e2f2| "G"g8| \
+"A"e2 e4 d2| c2 c4 B2| A2A2 B2c2| "D"d6|]
+
+
+
+X: 1
+T: Chinese Breakdown
+I: Chinese Breakdown	S-C	D	square
+%C: S-C
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: D
+A2| "D"d2A2 B2A2| F2 F4 A2| d2A2 B2A2| "A"E8| \
+       c2A2 B2A2| c2 c4 B2| A2A2 B2A2| "D"D6 A2|
+    "D"d2A2 B2A2| F2 F4 E2| D2D2 E2F2| "G"G8| \
+    "A"e2 e4 d2| c2 c4 B2| A2A2 B2c2| "D"d8|]
+"D"f2af e2d2| f2 f6| f2af e2d2| "A"c8| \
+   a2aa a2a2| g2 g6| e2c2 B2A2| "D"f8 |
+"D"f2af e2d2| f2 f6| d2d2 e2f2| "G"g8| \
+"A"e2 e4 d2| c2 c4 B2| A2A2 B2c2| "D"d6|]
+
+
+
+X: 34
+T:Chinese Breakdown
+C:Trad
+M:2/4
+L:1/8
+K:D
+A | dd BA | F F2 A | dd BA | E3 A | cc BA | c c2 B | AA BA | F3 A | dd B
+A | F F2 E | D2 EF | G3 d | e e2 f/2e/2 | c c2 B | A>A Bc | d3 :|
+d | f a/2f/2 ed | f f3 | f a/2f/2 ed | c3 e | a a2 a | g g2 e | c2 cB
+| A2 A2 | f a/2f/2 ed | f f2 e | d>d c=c | B2 B2 |e e2 f/2e/2|c c2 B|
+ A>A Bc | d3 :|
+
+
+
+X:1
+T: Chinese Breakdown
+C:
+R:Reel
+Q: 232
+K:D
+M:2/4
+L:1/8
+((3A1/2B1/2c1/2) |dA BA FF1/2F1/2 F ((3A1/2B1/2c1/2) |dA BA GG1/2G1/2 GA1/2B1/2|
+cA BA cc1/2c1/2 cA1/2B1/2|cA BA FF1/2F1/2 F ((3A1/2B1/2c1/2) |
+dA BA FF1/2F1/2 FF1/2E1/2|DF EF GG1/2G1/2 Gc1/2d1/2|
+ee1/2e1/2 e1/2f1/2e1/2d1/2 cc1/2c1/2 c1/2d1/2c1/2B1/2|AA1/2A1/2 B1/2A1/2c1/2A1/2 dd1/2d1/2 dz|
+A|df fA df fA|df ed e2 e^g|
+aa1/2a1/2 ab1/2a1/2 gg1/2g1/2 g1/2a1/2g1/2f1/2|e^d e=f ^f3 A|
+df fA df fA|df gf B4|
+ee1/2e1/2 e1/2f1/2e1/2d1/2 cc1/2c1/2 c1/2d1/2c1/2B1/2|AA1/2A1/2 B1/2A1/2c1/2A1/2 dd1/2d1/2 dz||
+
+
+
+X:31
+T:Chinese breakdown
+O:scotland
+R:Reel
+M:4/4
+K:D
+A2| ddBA FF2A | ddBA c3A | \
+ce/c/ BA cc2B | A/A/A/A/ BA F3A |\
+ddBA FF2E | D/D/D/D/ EF G3A |\
+ee e/f/e/d/ cc2B | A/A/A/A/ Bc d2 ::\
+A2| fa/f/ ed ff2A | fa/f/ ed c3 e|\
+aa2^g =gg2e | ce/c/ B/c/B A2z=f |\
+^f2af ed ff2e | d/d/d/d ef g4 |\
+ee e/f/e/d/ cc2B | AABc d2:|
+
+
+
+X: 1
+T:Chinese Breakdown
+M:4/4
+L:1/4
+C:
+S:AB form
+R:Key of D
+K:D
+||dABA|F2F2|dABA|G2G2|cABA|cABA|cABA|F2F2|dABA|FFFE|DDEF|G4|eeed|cccB|A
+ABc|d2dA/2A/2||!||Af/2f/2fA/2A/2|Af/2f/2ff|ffef|g2g2|ee/2e/2ed|cc/2c/2cB
+|!
+|AA/2A/2BA|F2FA/2A/2|Af/2f/2fA/2A/2|Af/2f/2ff|ffef|!g2g2|ee/2e/2ed|cc/2c
+/2
+cB|AABc|d4||
+
+
+
+X: 460
+T:Chinese Breakdown
+N: page 186
+N: heptatonic
+R: Reel
+M:2/4
+L:1/16
+K:D
+(3ABc|:"D"d2A2 B2A2|F2FF F2(3ABc|d2A2 B2A2|"A7"G2GG G2AB|
+"A7"c2A2 B2A2|c2cc c2AB|c2A2 B2A2|"D"F2FF F2(3ABc|
+"D"d2A2 B2A2|F2FF F2FE|D2F2 E2F2|"G"G2GG G2cd|
+"A7"e2ee efed|c2cc cdcB|A2AA BAcA|"D"d2dd d2 (3ABc::
+"D"[F2d2][d2f2] [d2f2]A2|[F2d2][d2f2] [d2f2][A2F2]|d2f2 e2d2|"A7"[c4e4] e2[=c2^g2]|
+"A7"[c2a2][ca][ca] [c2a2][cb][ca]|g2gg gagf|e2^d2 e2=f2|"D"^f6 A2|
+"D"[F2d2][d2f2] [d2f2]A2|[F2d2][d2f2] [d2f2]A2|d2f2 "G"g2"D7"f2|"G"B8|
+"A7"e2ee efed|c2cc cdcB|A2AA BAcA|"D"d2dd d2 z2:|]
+
+
+
+X:62
+T:Chinese Breakdown
+R:square
+Z: Transcribed to abc by Mary Lou Knack
+M:C|
+K:D
+A2| "D"d2A2 B2A2| F2 F4 A2| d2A2 B2A2| "A"E8| \
+       c2A2 B2A2| c2 c4 B2| A2A2 B2A2| "D"D6 A2|
+    "D"d2A2 B2A2| F2 F4 E2| D2D2 E2F2| "G"G8| \
+    "A"e2 e4 d2| c2 c4 B2| A2A2 B2c2| "D"d8|]
+\
+"D"f2af e2d2| f2 f6| f2af e2d2| "A"c8| \
+   a2aa a2a2| g2 g6| e2c2 B2A2| "D"f8 |
+"D"f2af e2d2| f2 f6| d2d2 e2f2| "G"g8| \
+"A"e2 e4 d2| c2 c4 B2| A2A2 B2c2| "D"d6|]
+
+
+
+X: 10
+T: Chinese Breakdown
+%O: from Viola Ruth
+B: Lee Owens "Advanced Square Dance Figures of the West and Southwest" p.24
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+((3vGAB |\
+"C"c2)GG AAEF | G6 (vAB | c2)GG AAEE | "G"F2 F4 (vBc |\
+d)cde d2(dc) | BABc B2(BA) | GGGG A2G2 | "C"E6 ((3GAB |
+c2)GG AAEF | G2 G4 ({G}ED) | vC2C2 D2E2 | "F"F6 (Bc) |\
+"G"d^cde d2(d=c) | BABc B2({c}BA) | GGGG A2B2 | "C"c6 :|
+|: (ef |\
+g2) g4 (fe) | c6 (ef) | g2g2 f2d2 | "F"A6 (de) |\
+"G"fefg fedc | BABc B2({c}BA) | G2G2 A2G2 | "C"E6 (ef |
+g2) g4 (fe) | c6 (ef) | g2g2 f2d2 | "F"A6  (Bc) |\
+"G"d^cde d2(d=c) | BABc B2({c}BA) | GGGG A2B2 | "C"c6 :|
+
+
+
+X:2978
+T:Chinese Breakdown
+M:2/4
+L:1/8
+Q:160
+C:Trad
+K:D
+A | dd BA | F F2 A | dd BA | E3 A | cc BA | c c2 B | AA BA | F3 A | dd B
+A | F F2 E | D2 EF | G3 d | e e2 f/2e/2 | c c2 B | A>A Bc | d3 :|
+|:d | fa/2f/2 ed | f f3 | fa/2f/2 ed | c3 e | a a2 a | g g2 e | c cB | A
+-A | fa/2f/2 ed | f f2 e | d>d c=c | B-B | e e2 f/2e/2 | c c2 B | A>A Bc
+ | d3 :|
+
+
+
+X:2980
+T:Chinese breakdown
+R:Reel
+O:USA
+O:England
+O:Scotland
+M:4/4
+K:D
+A2| ddBA FF2A | ddBA c3A | \
+ce/c/ BA cc2B | A/A/A/A/ BA F3A |\
+ddBA FF2E | D/D/D/D/ EF G3A |\
+ee e/f/e/d/ cc2B | A/A/A/A/ Bc d2 ::\
+A2| fa/f/ ed ff2A | fa/f/ ed c3 e|\
+aa2^g =gg2e | ce/c/ B/c/B A2z=f |\
+^f2af ed ff2e | d/d/d/d ef g4 |\
+ee e/f/e/d/ cc2B | AABc d2:|**
+
+
+
+X:46
+T:Chinese Breakdown
+F:http://www.banjolin.co.uk/tunes/abcs/chinesebreakdown.abc
+O:America
+C:Trad
+R:Breakdown
+M:2/4
+L:1/8
+K:D
+A |: dd BA | F F2 A | dd BA | E3 A | cc BA | c c2 B | AA BA | F3 A |
+  | dd BA | F F2 E | D2 EF | G3 d | e e2 f/2e/2 | c c2 B | A>A Bc |1 d3 A:|2 d3 d|
+  |: f a/2f/2 ed | f f3 | f a/2f/2 ed | c3 e | a a2 a | g g2 e | c2 cB| A2 A2|
+  | f a/2f/2 ed | f f2 e | d>d c=c | B2 B2 |e e2 f/2e/2|c c2 B|A>A Bc |1 d3 d:|2 d3 A|
+
+
+
+X:3023
+T:Chinese Breakdown
+R:March
+C:Trad.
+O:USA
+Z:Paul Hardy's Session Tunebook 2018 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:2/4
+L:1/8
+Q:1/4=100
+K:D
+A|"D"dd BA|FF2A|dd BA|"A7"E3A|cc BA|cc2B|AA BA|"D"F2-FA|
+"D"dd BA|FF2 E|"D7"D>D EF|"G"G3 d|"A7"ee2 f/e/|cc2c/B/|A>A Bc|"D"d3 z||
+"D"fa/f/ ed|ff2f|fa/f/ ed|"A7"c3e|aa2a|gg2g|c>c cB|"D"A2-A2|
+"D"fa/f/ ed|ff2e|"D7"d>d c=c|"G"B4|"A7"ee2g/e/|cc2B|A>A Bc|"D"d3|]
+
+
+
+X: 41
+T:Chinese Breakdown
+M:4/4
+L:1/4
+Z: Jo Anne Rocke 10-18-2003
+K:D
+A2 | "D"dcBA | FF2A | "D"ddBA | "A"E3A | 
+"A"ce/2c/2BA | cc2B | "A7"A/2A/2A/2A/2BA | "D"F3A |
+"D"dcBA | FF2E | "D"D/2D/2D/2D/2EF | "G"G3A |
+"A"eee/2f/2e/2d/2 | cc2B | "A7"A/2A/2A/2A/2Bc | "D"d2
+A2 | "D"fa/2f/2ed | ff2A | "D"fa/2f/2ed | "A"c3e | 
+"A"aa2^g | =gg2e | "A7"ce/2c/2B/2c/2B | "D"A3=f |
+"D"^fa/2f/2ed | ff2e | "D"d/2d/2d/2d/2ef | "G"g4 |
+"A"eee/2f/2e/2d/2 | cc2B | "A7"AABc | "D"d2|]
+
+
+
+X:44
+T:Chinese Breakdown
+R:Reel
+M:4/4
+K:D
+L:1/4
+P:A
+A| "D"dcBA |F2FA | dcBA |"A"E3A | ee2d |cc2B | AA BA |"D"F3A |
+"D"dcBA |F2FE | DD EF |"G"G3A |"A"ee2d |cc2B | AA Bc |"D"d3 A ||
+P:B
+"D" ffed |f2f e/f/| gfed |"A"c2c2 |a2a f/g/| a2a f/g/ | aaba |"D"f2f2 |
+"D" ffed |f2fe | dd ef "G"|g3 z |"A" e2ed |cc2B | AABc |"D"d3|]
+
+
+
+X:1
+T:Chinese Breakdown [1]
+R:Reel
+Q:232
+M:2/4
+L:1/8
+K:D
+((3A1/2B1/2c1/2) |dA BA|FF1/2F1/2 F ((3A1/2B1/2c1/2) |dA BA|GG1/2G1/2 GA1/2B1/2|
+cA BA|cc1/2c1/2 cA1/2B1/2|cA BA|FF1/2F1/2 F ((3A1/2B1/2c1/2) |dA BA |FF1/2F1/2 FF1/2E1/2|
+DF EF|GG1/2G1/2 Gc1/2d1/2|ee1/2e1/2 e1/2f1/2e1/2d1/2|cc1/2c1/2 c1/2d1/2c1/2B1/2|AA1/2A1/2 B1/2A1/2c1/2A1/2|dd1/2d1/2 dz|
+A|df fA|df fA|df ed|e2 e^g|aa1/2a1/2 ab1/2a1/2|gg1/2g1/2 g1/2a1/2g1/2f1/2|e^d e=f| ^f3 A|
+df fA |df fA|df gf |B4|ee1/2e1/2 e1/2f1/2e1/2d1/2| cc1/2c 1/2c1/2d1/2c1/2B1/2|AA1/2A1/2 B1/2A1/2c1/2A1/2|dd1/2d1/2 dz||
+
+
+
+X:1
+T:Chinese Breakdown [3]
+M:2/4
+L:1/8
+K:A
+afec|A2 AA|FAAF|A2 AA|EAAF|A2 AA|
+cecA|B4|eeec|A2 AA|FAAF|A2 AA|
+ceee|fecA|c2BB|A4::GBBB|Beee|
+fBBB|g2e2|BBBB Baaa|1 gfgf|d4:|2 gfBf|e4|f4||
+
+
+
+X:1
+T: Chinese Dance
+C:
+R:Reel
+Q: 232
+K:A
+M:4/4
+L:1/8
+c|:A2 a2 g2 f2|ef ed c2 e2|c2 e2 c2 e2|d2 B2 B2 cB|
+A2 a2 g2 f2|ef ed c2 e2|c2 e2 dc dB|A2 c2 A2 cB:|
+|:G2 B2 G2 B2|G2 B2 dc dB|A2 c2 A2 c2|A2 c2 e2 fg|
+a2 a2 e2 fg|a2 a2 e2 fg|a2 e2 d2 c2|1BA Bc Bd cB:|2BA Bc A3||
+
+
+
+X: 129011
+T: CHINESE DANCE
+%R: reel
+B: James Kerr "Merry Melodies" v.1 p.29 s.0 #11
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+vcB |\
+A2a2g2f2 | efed c2e2 |\
+c2e2c2e2 | d2B2B2 (cB) |\
+A2a2g2f2 | efed c2e2 |\
+c2e2 dcdB | A2c2A2 H:|
+|: (BA) |\
+G2B2G2B2 | G2B2 dcdB |\
+A2c2A2c2 | A2c2 e2(fg) |\
+a2a2e2 (fg) | a2a2e2 (fg) |\
+a2e2d2c2 | BABc Bdc"_D.C."B |]
+
+
+
+X:1
+T:Chinese Dance
+M:2/4
+L:1/8
+S:Kerr - Merry Melodies, vol. 1, p. 29  (c. 1880's)
+Z:AK/Fiddler's Companion
+K:A
+c/B/|Aagf|e/f/e/d/ ce|cece|dBB (c/B/)|Aagf|e/f/e/d/ ce|
+ce d/c/d/B/|AcA::(B/A/)|GBGB|GB d/c/d/B/|AcAc|
+Ac e(f/g/)|aae (f/g/)|aae (f/g/)|aedc|B/A/B/c/ B/d/c/B/:||
+
+
+
+X:324
+T:Chinese Dance. EHo.324
+M:6/8
+L:1/8
+Q:3/8=100
+B:Edward Holmes MS, c1846, Beverley, Yorkshire.
+N:NB1 = crochet in ms
+O:East Yorkshire.
+Z:Village Music Project 2018, Jake Wade. Beverley, East Yorks
+K:D
+(A | d)z (f^e)z (f | d)z (f^e)z (f | d)z f agf | gab "NB1"ez (e |
+A)z (e^d)z (e | A)z (e^d)z  e | Az e gfe | fga d2 :|
+d | f3-fzd | dBB B2z | e3-edB | cAA A2z |
+f3-fed | dBB Bcd | e3-edB | cAA A(dc/B/ |
+A2) B/(c/d2)e | dza e2(c/B/ | A2)(c/d/ e2)f | eda (d2c/B/) |
+A2(B/c/d2)e | dca e2c/B/ | A2c/d/e2f | edad2 |]
+
+
+
+X:21
+T:Chinese Dance. RHu.021
+S:R.Hughes MS,1823,Whitchurch,Shrops.
+A:Whitchurch, Shropshire
+Z:Neil Brookes 2006
+M:2/4
+L:1/8
+Q:1/4=90
+R:Country Dance
+K:G
+B/A/|Ggfe|d/e/d/c/ Bd|BcBd|cA AB/A/|!
+Ggfe|d/e/d/c/ Bd|BdcB|G2"cr in MS"G||!
+A/G/|FAFA|FA cB/A/|GBGB|GB d(3d/e/f/|!
+gg d(3d/e/f/|gg d(3d/e/f/|gdcB|A/G/A/B/ A/c/B/A/|]
+
+
+
+X:117
+T:Chinese Dance. RHu.117
+S:R.Hughes MS,1823,Whitchurch,Shrops.
+A:Whitchurch, Shropshire
+Z:Tony Weatherall 2006
+M:2/4
+L:1/8
+Q:1/4=100
+R:Country Dance
+K:C
+cc'ba|g/a/g/f/ eg|eg eg|g/f/e/f/ de/d/|!
+cc'ba|g/a/g/f/ eg|eg g/f/d/B/|c2c2:|!
+|:Bd Bd|B/c/d/e/ fd|ce ce|c/d/e/f/ ga/b/|!
+c'gg a/b/|c'gg a/b/|c'gge|(e2d2):|
+
+
+
+X:148
+T:Chinese Festival, The
+M:C|
+L:1/8
+B:Thompson's Compleat Collection of 200 Favourite Country Dances, vol. 1 (London, 1757)
+Z:Transcribed and edited by Flynn Titford-Mock, 2007
+Z:abc's:AK/Fiddler's Companion
+K:F
+f2 (3cde f2 (3cde|gbag "tr"g2f2|f2 (3cde f2 (3cBA|BdcB "tr"B2 A2:|
+|:g2 (3cde gbag|afbg "tr"fe f2|c2 "tr"BA BdcB|AGFE F2 f2:|
+
+
+
+X:1
+T:Chinese Festival, The
+M:C|
+L:1/8
+B:Thompson's Compleat Collection of 200 Favourite Country Dances, vol. 1 (London, 1757)
+Z:Transcribed and edited by Flynn Titford-Mock, 2007
+Z:abc's:AK/Fiddler's Companion
+K:F
+f2 (3cde f2 (3cde|gbag "tr"g2f2|f2 (3cde f2 (3cBA|BdcB "tr"B2 A2:|
+|:g2 (3cde gbag|afbg "tr"fe f2|c2 "tr"BA BdcB|AGFE F2 f2:||
+
+
+
+X:1
+T:Chinese Festival, The
+M:C|
+L:1/8
+B:Thompson's Compleat Collection of 200 Favourite Country Dances, vol. 1 (London, 1757)
+Z:Transcribed and edited by Fynn Titford-Mock, 2007
+Z:abc's:AK/Fiddler's Companion
+K:F
+f2 (3cde f2 (3cde|gbag Tg2f2|f2 (3cde f2 (3cBA|BdcB TB2 A2:|
+|:g2 (3cde gbag|afbg Tfe f2|c2 TBA BdcB|AGFE F2 f2:||
+
+
+
+X:148
+T:Chinese Festival THO1.148, The
+M:C|
+L:1/8
+Z:vmp. Peter Dunk 2012.from a transcription by Fynn Titford-Mock 2006
+B:Thompson's Compleat Collection of 200 Favourite Country Dances Vol.I,1758
+Q:1/2=80
+K:F
+f2 (3cde f2 (3cde|fbag Tg2f2|f2 (3cde f2 (3cBA|BdcB TB2 A2:|
+|:g2 (3cde gbag|afbg Tfe f2|c2 TBA BdcB|AGFE F2f2:|
+
+
+
+X: 1521
+T: CHINESE GALOPADE
+O: Arranged by A.F. Knight
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.152 #1
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+%----------
+V: 1
+"CLARINET PRIMO"|:\
+cccc c2e2 | g2c'2g2e2 | cccc c2e2 | d2g2 G4 |\
+cccc c2e2 | g2c'2g2e2 | dddd d2b2 | c'2c'2c'2z2 :|
+|:!f!\
+gggg g2b2 | aaaa a2d'2 | bbbb c'bag | ^f2d'2 d4 |\
+gggg g2b2 | aaaa a2d'2 | b2(c'b) a2(ba) | g2b2g2z2 :|
+|:!p!\
+cccc c2e2 | g2c'2g2e2 | cccc c2e2 | d2g2 G4 |\
+cccc c2e2 | g2c'2g2e2 | dddd d2b2 | c'2c'2c'2z2 H:|
+%----------
+V: 2
+"CLARINET SECONDO"|:\
+z2E2E2E2 | E2E2E2E2 | z2E2E2E2 | B2B2B4 |\
+CGEG CGEG | CGEG CGEG | FGFG FGFG | c2e2e2z2 :|
+|:!f!\
+BBBB B2B2 | dddd d2d2 | [B2G2][d2B2] [B2G2][d2B2] | d2d2 A4 |\
+!/!B8 | !/!d8 | d2d2 c2c2 | B2d2B2z2 :|
+|:!p!\
+z2E2E2E2 | E2E2E2E2 | z2E2E2E2 | d2B2B4 |\
+C4!trem2!G4 | C4!trem2!G4 | C4!trem2!G4 | c2e2e2z2 H:|
+%----------
+V: 3 clef=bass middle=d
+|:\
+c2c'2 c2c'2 | c2c'2 c2c'2 | c2c'2 c2c'2 | G2g2 g4 |\
+c'2g2 c'2g2 | c'2g2 c'2g2 | f2f2 g2G2 | c2c'2c2z2 :|
+|:!f!\
+g2g2g2g2 | ^f2f2f2f2 | g4g4 | d2d2d4 |\
+G2g2 G2g2 | !/!^f8 | g2g2 d2d2 | G2g2G2z2 :|
+|:!p!\
+c2c'2 c2c'2 | c2c'2 c2c'2 | c2c'2 c2c'2 | G2g2 g4 |\
+c2c2c2c2 | c2c2c2c2 | f4 g2G2 | c2c'2c'2z2 H:|
+%----------
+
+
+X:2
+T:Chinesen-Walzer  CF 7- (wz07069) 
+S:Hanny Christen. Bd.V  Basel II, Jura. S.169  ( wz07069) orig. G,C
+S:Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%P:ABCA
+R:Walzer
+M:3/4
+L:1/4
+K:C %%MIDI gchordon
+[P:A] "F"c/2B/2 d/2c/2 B/2c/2 | A2f | ("C"e3 | e)dc | "G7"d3 | dcB | "C"c3 | G3 | "F"c/2B/2 d/2c/2 B/2c/2 | 
+A2f | ("C"e3 | e)dc | ("G7"d3 | d)cB | "C"c>cc | cz"_Fine"z :: [P:B] "C"cEG | c3 | 
+eGc | e3 | "F"f3 | "C"e3 | !>!"G7"d3 | "C"cB/2A/2G | cEG | c3 | eGc | e3 | 
+"F"f3 | "C"e3 | "G7"d2B | "C"czz :: [P:C] [K:F] ("F"A2c) | ("Bb"B2d) | ("F"A2c) | zdc | ("C7"e2d) | (d2c) | 
+(c2B) | "F"Adc | (A2c ) | ("Bb"B2d) | ("F"A2c) | zdc | ("C7"e2d) | (c2B) | "F"A>ff | f"_>Teil A"zz :| 
+W:
+W:Parts: ABCA
+%W:
+%W:Anmerkung H.C.: Ormalingen, s.V. 362
+% wz07069
+% June 17, 2018
+
+
+
+X:12957
+T:Chinesen-Walzer  CF  (wz07613) 
+S:Hanny Christen. Bd.V  Basel II, Jura. S.127  (wz07613) orig. C,F
+T: Basel II. Tänze aus Wintersingen und Ormalingen. S.122-133.
+S:Überliefert durch Schaffner-Suter, Schaub-Forder & Emil Völlmy-Thommen
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+F:https://www.dropbox.com/s/aqidkivw9q66f6j/Bd05_2018.abc?dl=1
+K:C %%MIDI gchordon
+[P:A] ("C"c/B/ d/c/ B/c/) | "F"A2f | "C"e3 | edc | "G7"d3 | dcB | "C"c3 | G3 | c/B/ d/c/ B/c/ |
+"F"A2f | "C"e3 | edc | "G7"d3 | dcB | ("C"c3 | c)zz  :: [P:B] ("C"cE).G | c3 | (eE).G |
+e3 | "G7"f2(g/f/) | "C"e2(f/e/) | "G7"d2(e/d/) | "C"c(B/A/)G | (cE).G | c3 | (eG).c | e3 | "G"f2(g/f/ ) |
+"C"e2(f/e/) | ("G7"d2B) | "C"czz :: [P:C] [K:F] ("F"A2c) | ("Bb"B2d) | ("F"A2c) | zdc | ("C7"e2G) | (d2E) | ("F"A2c) |
+"Bb"B(dc) | ("F"A2c) | ("Bb"B2d) | ("F"A2c) | zdc | ("C7"e2G) | (d2E) | "F"F>AA | Azz :|
+W:
+W:Anmerkung H.C.: Var. Böckten, Höfler-Musig, Walliser, Oberdorf, s.V. 362
+% wz07613
+% May 18, 2018
+
+
+
+X:2
+T:Chinesen-Walzer  GC 5-  (wz07613) 
+S:Hanny Christen. Bd.V  Basel II, Jura. S.127  (wz07613) orig. C,F
+S:Basel II. Tänze aus Wintersingen und Ormalingen. S.122-133.
+S:Überliefert durch Schaffner-Suter, Schaub-Forder & Emil Völlmy-Thommen
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+K:G %%MIDI gchordon
+[P:A] ("G"G/2F/2 A/2G/2 F/2G/2) | "C"E2c | "G"B3 | BAG | "D7"A3 | AGF | "G"G3 | D3 | G/2F/2 A/2G/2 F/2G/2 | 
+"C"E2c | "G"B3 | BAG | "D7"A3 | AGF | ("G"G3 | G)zz :: [P:B] ("G"GB,).D | G3 | (BB,).D | 
+B3 | "D7"c2(d/2c/2) | "G"B2(c/2B/2) | "D7"A2(B/2A/2) | "G"G(F/2E/2)D | (GB,).D | G3 | (BD).G | B3 | "D"c2(d/2c/2 ) | 
+"G"B2(c/2B/2) | ("D7"A2F) | "G"Gzz :: [P:C] [K:C] ("C"E2G) | ("F"F2A) | ("C"E2G) | zAG | ("G7"B2D) | (A2B,) | ("C"E2G) | 
+"F"F(AG) | ("C"E2G) | ("F"F2A) | ("C"E2G) | zAG | ("G7"B2D) | (A2B,) | "C"C>EE | Ezz :| 
+%W:Anmerkung H.C.: Var. Böckten, Höfler-Musig, Walliser, Oberdorf, s.V. 362
+% wz07613
+% May 18, 2018
+
+
+
+X:12978
+T:Chinesen-Walzer  GC (wz07069) ABCA
+S:Hanny Christen. Bd.V  Basel II, Jura. S.169  ( wz07069) orig. G,C
+T: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+P:ABCA
+R:Walzer
+M:3/4
+L:1/4
+F:https://www.dropbox.com/s/aqidkivw9q66f6j/Bd05_2018.abc?dl=1
+K:G %%MIDI gchordon
+[P:A] "C"g/f/ a/g/ f/g/ | e2c' | ("G"b3 | b)ag | "D7"a3 | agf | "G"g3 | d3 | "C"g/f/ a/g/ f/g/ |
+e2c' | ("G"b3 | b)ag | ("D7"a3 | a)gf | "G"g>gg | gz"_Fine"z :: [P:B] "G"gBd | g3 |
+bdg | b3 | "C"c'3 | "G"b3 | !>!"D7"a3 | "G"gf/e/d | gBd | g3 | bdg | b3 |
+"C"c'3 | "G"b3 | "D7"a2f | "G"gzz :: [P:C] [K:C] ("C"e2g) | ("F"f2a) | ("C"e2g) | zag | ("G7"b2a) | (a2g) |
+(g2f) | "C"eag | (e2g ) | ("F"f2a) | ("C"e2g) | zag | ("G7"b2a)  | (g2f) | "C"e>c'c' | c'"_>Teil A"zz :|
+W:
+%W:Parts: ABCA
+%W:
+W:Anmerkung H.C.: Ormalingen, s.V.362
+% wz07069
+% June 17, 2018
+
+
+
+X: 1
+T: The Chinese Piper
+R: reel
+M: 4/4
+L: 1/8
+K: Amin
+"Am"e2 de (ge)de | "Em"B2 AB (dB)(AB) | "C"G2 (EG) (AB)AG |1 "Am"(EG)AG "D"D2 D2 :|2 "Am" (BA)GE "G"G2 (Bd) ||
+|: "C"e2 eg "Am"(ab)ag | "C"e2 (eg) "Em"edBA | "Bm"B2 (Bd) "C"(eg)ed |1 "G"(BA)GB "D"A2 (Bd) :|2 "G" (BA)"D"GE "G"G2 (Bd) ||
+|: "D"A2 (AB) AGED | "G"D2 (DE) GBAG |"Am"e2 ed (e"C"g)ed |1 "G" (ge)dB "D"A2 (A"G"B) :|2 "G" (BA)G"Am"E "G"G2 g2 |]
+
+
+
+X:1
+T: Chinese Piper Bmin
+M: 4/4
+L: 1/8
+R: reel
+K:Bmin
+"Bm"f2 ef (af)ef | "F#m"c2 Bc (ec)(Bc) | "D"A2 (FA) (Bc)BA |1 "Bm"(FA)BA "E"E2 E2 :|2 "Bm" (cB)AF "A"A2 (ce) ||
+|: "D"f2 fa "Bm"(bc')ba | "D"f2 (fa) fecB | "D"c2 (ce) (fa)fe |1 "A"(cB)Ac "E"B2 (ce) :|2 "A" (cB)"E"AF "A"A2 (ce) ||
+|: "E"B2 (Bc) BAFE | "A"E2 (EF) AcBA |"Bm"f2 fe (f"D"a)fe |1 "A" (af)ec "E"B2 (B"A"c) :|2 "A" (cB)A"Bm"F "A"A2 a2 |]
+
+
+
+X:1
+T: Chinese Piper, The
+M: 4/4
+L: 1/8
+R: reel
+K:Amin
+"Am"e2 de (ge)de | "Em"B2 AB (dB)(AB) | "C"G2 (EG) (AB)AG |1 "Am"(EG)AG "D"D2 D2 :|2 "Am" (BA)GE "G"G2 (Bd) ||
+|: "C"e2 eg "Am"(ab)ag | "C"e2 (eg) "Em"edBA | "Bm"B2 (Bd) "C"(eg)ed |1 "G"(BA)GB "D"A2 (Bd) :|2 "G" (BA)"D"GE "G"G2 (Bd) ||
+|: "D"A2 (AB) AGED | "G"D2 (DE) GBAG |"Am"e2 ed (e"C"g)ed |1 "G" (ge)dB "D"A2 (A"G"B) :|2 "G" (BA)G"Am"E "G"G2 g2 |]
+
+
+
+X:1
+%
+T:Chinese Polka
+M:2/4
+L:1/8
+R:Polka
+O:French-Canadian
+K:D
+d/B/A/F/ DD/D/ | B,/D/D/B,/ DD/D/ | B,/D/D/B,/ DD/D/ | F/A/A/F/ E2 |
+A/A/A/F/ DD/D/ | B,/D/D/B,/ DD/D/ | F/A/A/A/ B/A/F/D/ | F/4E/4D/E/C/ D2 :|
+|: E/E/E/E/ E/A/A/A/ | B/B/A/B/ cA | E/E/E/E/ E/d/d/d/ |1 c/B/c/B/ A2:|2 c/B/c/B/ A2B2 ||
+
+
+
+X:256
+T:Chinese Polka
+F:http://www.banjolin.co.uk/tunes/abcs/chinesepolka.abc
+R:Polka
+O:French Canadian
+M:2/4
+L:1/8
+K:G
+|:ge dB |G2 GG|AB GE |G2 GG|EG GE|G2 GG|Bd dB|A4|
+|ge dB |G2 GG|AB GE |G2 GG|Bd dd|ed BG|B2A2|G4:|
+|:AA AA|Ad dd|ee de|f2d2| AA AA |Ag gg|fe fe|d4|
+|AA AA |Ad dd|ee de|f2 d2|AA AA|Ag gg|fefe|d2c2:|
+
+
+
+X:2981
+T:Chinese Polka, The
+M:2/4
+L:1/16
+R:polka
+O:French-Canadian
+K:D
+dBAF D2DD|B,DDB, D2DD|B,DDB, D2DD|FAAF E4|
+AAAF D2DD|B,DDB, D2DD|FAAA BAFD|F/E/DEC D4:|
+EEEE EAAA|BBAB c2A2|EEEE Eddd|1 cBcB A4:|2 cBcB A4 B4||
+
+
+
+X:1
+T: The Chinese Tattoo
+C:
+R:Jig
+Q:180
+K:A
+M:6/8
+L:1/16
+|:A2B2A2 c4A2|A2c2A2 a4e2|f2e2f2 a4e2|f2e2a2 f2e2c2|
+A2B2A2 c4A2|A2B2A2 a6|f2e2a2 f2e2c2|e2c2A2 A6:|
+|:f2e2f2 a4e2|f2e2f2 a4e2|f2e2f2 a2e2a2|f2e2a2 f2e2c2|
+A2B2A2 c4A2|A2c2A2 a6|f2e2a2 f2e2c2|e2c2A2 A6:|
+
+
+
+X:2968
+T:Chinese tune
+C:anon.
+O:China?
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/china/chinese-tune-02.abc
+M:C|
+L:1/4
+K:Gmix
+G|GGAA|BEG2|AAAG|ABG2|
+EGAz|AAAG|GAGE|D2z2|BGA2|
+ABA2|GGGA|ABGE|D2z2|D>ED|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+
+
+
+X:2857
+T:Chinese tune
+C:anon.
+O:China?
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/china/chinese-tune.abc
+M:C
+L:1/4
+K:Dm
+DFA/G/A|DFA/G/A|AcA/G/A|DFA/G/A|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+
+
+
+X: 1
+T: Earth Returns to Spring
+O: Chinese
+M: 4/4
+L: 1/8
+Q: 1/2=88
+K: C
+|: "C"C3 D E2 G2 | "C"AG- G3 cBc | "C"d2 c2 B2 c2 | "F"A4 z ABc | "F"d2 c2 B2 c2 |
+| "C"G2 G3 GFG | "C"A2 G2 E2 G2 | "G7"D4 zDEF \
+|1 "G7"A2 G2 B,2 D2 | "C"C4 z4 \
+:|2 "G7"A2 G2 B2 d2 | "C"c4 "fine"z4 ||
+|: "C"ce dc- c4 | "Am"Ac BA- A4 | "C"EF G>E "F"FG A2 |1 "G7"Bc AG- G4 :|2 "G7"GA Bc d2 "d.C."G2 |]
+
+
+
+X: 1
+T:Follow You-for Kiera-Cyrano
+%genre:Easy Listening/Love/Ballad/?
+% sent to me by LOTRO player as a request
+%original is chinese and am told translates to "Follow You"
+M:4/4
+L:1/8
+Q:1/4=67
+K:C
+
+
+
+X:2
+T:Galopp  CF 5- (gL07809)
+S:Hanny Christen. Bd.V  Basel II, Jura. S.183  (gL07809) orig. F,Bb
+S:Basel II. "Mundwilermusig", Tenniken. S.183-219.
+S:Überliefert durch Hermann und Johannes Mundwiler und Ernst Otter.
+%P:ABC
+R:Galopp
+M:2/4
+L:1/8
+K:C %%MIDI gchordon
+[P:A] "C"Ge!>!c2 | EA !>!G2 | "G7"D>E F>G | "C"A>GG2 | Ge!>!c2 | EA !>!G2 | (3"G7"BAG (3fed | "C"cc cz || 
+[P:B] "G7"D>E F>D | "C"E>Gc2 | "F"e>d c>A | "C"A>GG2 | Gec2 | EAG2 | (3"G7"BAG (3fed | "C"cc cz || [K:F] 
+[P:C] "C7"e>d c>B | "F"A>dc2 | "C7"d>c G>c | "F"A>B d>c | "C7"e>d c>B | "F"A>dc2 | "C7"e>d e>c | "F"f2z2 |] 
+W:
+%W:Parts: ABC
+%W:Anmerkung H.C.: 
+%W:Anmerkung Hrsg,:
+% gL07809
+% August 4, 2018 (Can you read Chinese?)
+
+
+
+X:12630
+T:Galopp  FBb (gL07809)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.183  (gL07809) orig. F,Bb
+S: Basel II. "Mundwilermusig", Tenniken. S.183-219.
+S:Überliefert durch Hermann und Johannes Mundwiler und Ernst Otter.
+%P:ABC
+R:Galopp
+M:2/4
+L:1/8
+F:https://www.dropbox.com/s/aqidkivw9q66f6j/Bd05_2018.abc?dl=1
+K:F %%MIDI gchordon
+[P:A]  "F"ca!>!f2 | Ad !>!c2 | "C7"G>A B>c | "F"d>cc2 | ca!>!f2 | Ad !>!c2 | (3"C7"edc (3bag | "F"ff fz ||
+[P:B] "C7"G>A B>G | "F"A>cf2 | "Bb"a>g f>d | "F"d>cc2 | caf2 | Adc2 | (3"C7"edc (3bag | "F"ff  fz || [K:Bb]
+[P:C] "F7"a>g f>e | "Bb"d>gf2 | "F7"g>f c>f | "Bb"d>e g>f | "F7"a>g f>e | "Bb"d>gf2 | "F7"a>g a>f | "Bb"b2z2 |]
+W:
+%W:Parts: ABC
+%W:Anmerkung H.C.:
+%W:Anmerkung Hrsg,:
+% gL07809
+% August 4, 2018 (Can you read Chinese?)
+
+
+
+X: 6
+T: Looney Tunes
+I: Looney Tunes	S-C	D	square
+% C: S-C
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: D
+% P: A
+A2| "D"ddc2 B2A2| F6 A2| ddc2 B2=c2| "A"^c8| \
+       c2A2 B2A2| c2A2 B2A2| A2_B2 =B2c2| "D"d2f2 d2 :|
+
