@@ -37,10 +37,13 @@ def getABCLinksAndNextSearchPageURL(searchResultHtml):
     
     base = "http://abcnotation.com"
     links = [base + link for link in abcLinks]
-    return (links, base + nextPage)
+    if nextPage is not None:
+        nextPage = base + nextPage
+    return (links, nextPage)
 
 # Sample program using getABCLinksAndNextSearchPageURL(searchResultHtml)
 url = "http://abcnotation.com/searchTunes?q=chicken&f=c&o=a&s=0"
+
 searchResultFilename = "search_result_chicken_00.html"
 downloadResource(url, "download", searchResultFilename)
 searchResultHtml = open(f"download/{searchResultFilename}", 'r').read() 
@@ -63,3 +66,4 @@ songHtml = open('download/0495.html', 'r').read()
 song = getABCSong(songHtml)
 
 print(song)
+
