@@ -72,18 +72,21 @@ I decided not to recreate slides that have been wonderfully created by other fre
 * Scrapping ABC Music files
 * Math: Slope of a function
 
-Session #4
-* Binary tree and tree recursion
-* Neural Networks
-* Slides: http://introtodeeplearning.com/materials/2019_6S191_L1.pdf
+[Session #4](04-nano-slides.md)
+* Normal distribution
+* Image classifiers: MNIST, CIFAR, ml5.js
+* Computer vision slides: http://introtodeeplearning.com/materials/2019_6S191_L3.pdf
+
 
 Session #5
+* Binary tree and tree recursion
 * Sequence modeling: RNN, GRU, LSTM
 * Slides: http://introtodeeplearning.com/materials/2019_6S191_L2.pdf
 
+
 Session #6
-* Computer vision: CNN, ConvNets
-* Slides: http://introtodeeplearning.com/materials/2019_6S191_L3.pdf
+* Neural Networks slides: http://introtodeeplearning.com/materials/2019_6S191_L1.pdf
+
 
 Session #7
 * Homework reviews
