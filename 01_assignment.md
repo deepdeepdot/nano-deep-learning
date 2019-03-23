@@ -1,4 +1,4 @@
-## Image filters
+## Assignment 1: Image Filters
 
 ### Assignment preparation
 

@@ -48,7 +48,7 @@ http://www.learningaboutelectronics.com/Articles/How-to-create-a-normal-distribu
     plt.show()
 
 
-### Kadenze class
+#### Kadenze class
 
 - Material verbatim from:
 https://www.kadenze.com/courses/creative-applications-of-deep-learning-with-tensorflow/info
@@ -161,6 +161,8 @@ http://introtodeeplearning.com/
 
 * MNIST workshop with tensorflow
     - https://github.com/aamini/introtodeeplearning_labs/blob/master/lab2/Part1_mnist_solution.ipynb
+
+* http://neuralnetworksanddeeplearning.com/chap1.html
 
 
 ### CIFAR 10

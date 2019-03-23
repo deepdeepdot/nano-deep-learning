@@ -210,6 +210,22 @@ http://abcnotation.com/examples
             nextPage = link
 
 
+#### Read and Write a file in Python
+
+    filename = "myfile.txt"
+    file = open(filename, "w") # "a" for append
+
+    file.write("Roses are red")
+    file.write("Violets are blue")
+    file.write("Sugar is sweet")
+
+    file.close()
+
+    file = open(filename, "r") # "r": read
+    content = file.read()
+    print(content)
+
+
 ### Reference
 
 * For the serious scrapper
