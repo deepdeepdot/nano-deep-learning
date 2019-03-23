@@ -153,6 +153,19 @@ http://introtodeeplearning.com/
 [Slides (Part 3)](http://introtodeeplearning.com/materials/2019_6S191_L3.pdf)
 
 
+### CNN Layers
+
+![CNN Image](img/cnn-deep-learning.png)
+###### MIT 6.S191 Introduction to Deep Learning
+
+
+### ReLU Activation
+
+* Rectified Linear Unit
+* g(z) = max(0, z)
+* It replaces every negative pixel to 0
+
+
 ### MNIST
 * Digit recognition
 * MNIST Demo<br>
