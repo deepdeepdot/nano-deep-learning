@@ -190,4 +190,5 @@ https://ml5js.org/docs/training-introduction
 
 * Fast Style Transfer<br>
 https://ml5js.org/docs/training-styletransfer
+https://github.com/NVIDIA/FastPhotoStyle
 
