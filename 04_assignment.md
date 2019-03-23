@@ -75,7 +75,7 @@ https://www.youtube.com/watch?v=H-HVZJ7kGI0&index=1&list=PLtBw6njQRU-rwp5__7C0oI
 
 Modify the Posenet example, so instead of 5 red dots, place a sombrero on top someone's head.
 Or place a mustache or beard on the face (below the eyes and nose)
-
+Or be creative and try a baseball cap or 
 https://ml5js.org/docs/posenet-webcam
 
 
@@ -87,12 +87,12 @@ See: https://github.com/NVIDIA/FastPhotoStyle
 Based on a working example for Fast Style Transfer
 https://ml5js.org/docs/style-transfer-image-example
 
-Create a web page in which the user can choose any image URL for the image as the source
-
-Feature Enhancements
+* Create a web page in which the user can choose any image URL for the image as the source
 * Try out more models designed for ML5
 https://github.com/ml5js/ml5-data-and-models/tree/master/models/style-transfer
 
+
+Feature Enhancements (optional)
 * Support for image file upload (need a web server app)
 * Support for drag n drop of images
 * Support custom styles by using a custom model derived from the project below
