@@ -1,5 +1,20 @@
 # Assignment 4: Image Classifier
 
+For this assignment, you'll need to accomplish these three items:
+    1) Run the CIFAR 10 project and save the results
+    2) Watch MIT's CNN: Computer Vision
+    3) Implement one of the projects using ML5.js
+
+You can choose any of the ML5.js projects.
+Easier projects:
+    - Implementing Style Transfer
+    - Mustachio or Sombrero?
+
+More challenging:
+    - Image classifier
+    - Training Style Transfer
+
+
 ## CIFAR 10
 
 Follow the steps for training the CIFAR
@@ -50,6 +65,43 @@ C) After you execute all the python code using ipython, save your ipython sessio
 %save my-cifar-pytorch.py 1-20 # this will save the first 20 lines, maybe you need more lines?
 
 
+## Watch MIT's CNN: Computer Vision
+
+https://www.youtube.com/watch?v=H-HVZJ7kGI0&index=1&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI
+
+
+## Implementing Style Transfer
+
+Based on a working example for Fast Style Transfer
+https://ml5js.org/docs/style-transfer-image-example
+
+Create a web page in which the user can choose any image URL for the image as the source
+
+Extra: consider using more models designed for ML5
+https://github.com/ml5js/ml5-data-and-models/tree/master/models/style-transfer
+
+
+## Mustachio or Mexican Sombrero?
+
+Modify the Posenet example, so instead of 5 red dots, place a sombrero on top someone's head.
+Or place a mustache or beard on the face (below the eyes and nose)
+
+https://ml5js.org/docs/posenet-webcam
+
+
+
+## Training Style Transfer
+Optional
+
+https://ml5js.org/docs/training-styletransfer
+
+It requires running on a GPU system (like paperspace.com)
+And process 15 GB of image data from the COCO dataset.
+http://cocodataset.org/#home
+
+Using a Titan X, it took 4 to 6 hours for training.
+On a Mac, it can take several months running with CPU.
+
 
 ## Image Classifier
 
@@ -63,25 +115,4 @@ https://www.youtube.com/watch?v=jmznx0Q1fP0&vl=en
 
 * ml5.js: Image Classification with MobileNet
 https://www.youtube.com/watch?v=yNkAuWz5lnY
-
-
-## Watch MIT's CNN: Computer Vision
-
-https://www.youtube.com/watch?v=H-HVZJ7kGI0&index=1&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI
-
-
-
-## Training Style Transfer
-
-Optional
-
-https://ml5js.org/docs/training-styletransfer
-
-It requires running on a GPU system (like paperspace.com)
-And process 15 GB of image data from the COCO dataset.
-http://cocodataset.org/#home
-
-Using a Titan X, it took 4 to 6 hours for training.
-On a Mac, it can take several months running with CPU.
-
 
