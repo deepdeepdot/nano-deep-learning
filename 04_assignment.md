@@ -73,9 +73,9 @@ https://www.youtube.com/watch?v=H-HVZJ7kGI0&index=1&list=PLtBw6njQRU-rwp5__7C0oI
 
 ## Mustachio or Mexican Sombrero?
 
-Modify the Posenet example, so instead of 5 red dots, place a sombrero on top someone's head.
+Modify the Posenet example, so instead of 7 red dots, place a sombrero on top someone's head.
 Or place a mustache or beard on the face (below the eyes and nose)
-Or be creative and try a baseball cap or 
+Or be creative and try a baseball cap or some Dracula teeth
 https://ml5js.org/docs/posenet-webcam
 
 
