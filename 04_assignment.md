@@ -80,7 +80,7 @@ Or be creative and try a baseball cap or some Dracula teeth
 https://ml5js.org/docs/posenet-webcam
 
 
-## B. Implementing Style Transfer
+### B. Implementing Style Transfer
 
 What's Style Transfer?<br>
 See: https://github.com/NVIDIA/FastPhotoStyle
