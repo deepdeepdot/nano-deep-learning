@@ -155,11 +155,11 @@ http://introtodeeplearning.com/
 
 ### MNIST
 * Digit recognition
-* MNIST with Tensorflow<br>
+* MNIST Demo<br>
     - Demo: https://storage.googleapis.com/tfjs-examples/mnist/dist/index.html
     - Code: https://github.com/tensorflow/tfjs-examples/tree/master/mnist
 
-* MNIST workshop with tensorflow
+* MNIST workshop with Tensorflow
     - https://github.com/aamini/introtodeeplearning_labs/blob/master/lab2/Part1_mnist_solution.ipynb
 
 * http://neuralnetworksanddeeplearning.com/chap1.html
@@ -169,7 +169,9 @@ http://introtodeeplearning.com/
 
 * Image classification
 * https://www.cs.toronto.edu/~kriz/cifar.html
-* The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.
+* The CIFAR-10:
+    - 60,000 32x32 images in 10 classes, 6,000 images per class.
+    - There are 50,000 training images and 10,000 test images.
 * Categories: airplane, bird, cat, deer, dog, horse, ship, truck
 
 
