@@ -15,7 +15,7 @@ More challenging:
 * Image classifier
 
 
-## CIFAR 10
+## 1. CIFAR 10
 
 Follow the steps for training the CIFAR
 https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html
@@ -65,13 +65,14 @@ C) After you execute all the python code using ipython, save your ipython sessio
 %save my-cifar-pytorch.py 1-20 # this will save the first 20 lines, maybe you need more lines?
 
 
-## Watch MIT's CNN: Computer Vision
+## 2. Watch MIT's CNN: Computer Vision
 
 https://www.youtube.com/watch?v=H-HVZJ7kGI0&index=1&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI
 
 
+## 3. ML5.js Projects
 
-## Mustachio or Mexican Sombrero?
+### A. Mustachio or Mexican Sombrero?
 
 Modify the Posenet example, so instead of 7 red dots, place a sombrero on top someone's head.
 Or place a mustache or beard on the face (below the eyes and nose)
@@ -79,7 +80,7 @@ Or be creative and try a baseball cap or some Dracula teeth
 https://ml5js.org/docs/posenet-webcam
 
 
-## Implementing Style Transfer
+## B. Implementing Style Transfer
 
 What's Style Transfer?<br>
 See: https://github.com/NVIDIA/FastPhotoStyle
@@ -98,7 +99,7 @@ Feature Enhancements (optional)
 * Support custom styles by using a custom model derived from the project below
 
 
-## Training Style Transfer
+### C. Training Style Transfer
 
 https://ml5js.org/docs/training-styletransfer
 
@@ -110,7 +111,7 @@ Using a Titan X, it took 4 to 6 hours for training.
 On a Mac, it can take several months running with CPU.
 
 
-## Image Classifier
+### D. Image Classifier
 
 Follow the steps to create your image classifier using ml5.js
 https://ml5js.org/docs/training-introduction
