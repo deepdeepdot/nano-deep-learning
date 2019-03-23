@@ -1,18 +1,18 @@
 # Assignment 4: Image Classifier
 
 For this assignment, you'll need to accomplish these three items:
-    1) Run the CIFAR 10 project and save the results
-    2) Watch MIT's CNN: Computer Vision
-    3) Implement one of the projects using ML5.js
+* Run the CIFAR 10 project and save the results
+* Watch MIT's CNN: Computer Vision
+* Implement one of the projects using ML5.js
 
 You can choose any of the ML5.js projects.
 Easier projects:
-    - Implementing Style Transfer
-    - Mustachio or Sombrero?
+* Implementing Style Transfer
+* Mustachio or Sombrero?
 
 More challenging:
-    - Image classifier
-    - Training Style Transfer
+* Image classifier
+* Training Style Transfer
 
 
 ## CIFAR 10
