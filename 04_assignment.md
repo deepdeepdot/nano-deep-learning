@@ -65,6 +65,10 @@ https://www.youtube.com/watch?v=jmznx0Q1fP0&vl=en
 https://www.youtube.com/watch?v=yNkAuWz5lnY
 
 
+## Watch MIT's CNN: Computer Vision
+
+https://www.youtube.com/watch?v=H-HVZJ7kGI0&index=1&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI
+
 
 
 ## Training Style Transfer
