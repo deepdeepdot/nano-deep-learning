@@ -1,4 +1,4 @@
-## Music generator with Deep Learning
+## Assigment 3: Music generator with Deep Learning
 
 There are two parts for this exercise:
 1) Collect a large number of ABC songs into a single text file
@@ -50,6 +50,26 @@ Once all these ABC song text files are saved in the `download` folder, we need t
 
 Then upload this merged ABC song file to your github repository.
 
+### Some gotchas
+
+#### DDOS Attack?<br>
+If you make constant requests without pause to the abcnotation.com server it will reply with some 400 permission error. You might be contributing to some DDOS attack. Hence, you want to wait for 5 seconds between each web request.
+
+    import time
+    time.sleep(5) # wait for 5 seconds
+
+#### Cleanup the ABC data
+I noticed some strange lines, which I deleted whenever I see them
+
+    I:abc-charset utf-8
+
+I also removed the ABC songs that contained a header but no notes.
+Training with empty notes will train the neural network to create empty songs. This is not something we want to encourage :)
+
+Rarely, I see HTML content instead of an ABC song. So I delete this too.
+
+#### Massive amount of data?
+If the quality of the resulting music is not very musical (too random?), it might be because the neural network didn't have enough data. What's `enough` data? I tried with the `chinese` keyword and got about 100 songs. The quality wasn't good, it didn't sound like a Chinese folk tune. The Irish ABC sample contains 816 ABC songs and the sound was pretty good. Therefore, if you don't have enough for a certain keyword, try few different keyword searchs and concatenate all the ABC song files into a single larger one that has mre than 1000 ABC songs.
 
 
 ### 2. Music generation with Deep Learning

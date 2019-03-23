@@ -17,6 +17,13 @@ More challenging:
 
 ## 1. CIFAR 10
 
+The CIFAR 10 data set is located at:<br>
+https://www.cs.toronto.edu/~kriz/cifar.html
+
+In class, we have seen cifar 10 in action with convnet.js<br>
+https://cs.stanford.edu/people/karpathy/convnetjs/demo/cifar10.html
+
+
 Follow the steps for training the CIFAR
 https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html
 
