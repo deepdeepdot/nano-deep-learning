@@ -32,12 +32,14 @@ Buckle your seatbelt Dorothy, <br>
     - Music with Python! http://foxdot.org
 
 
-### Setup Anaconda
+### Setup Miniconda
 
     # Version Manager for Python and package manager
     # Anaconda is like rvm in Ruby or nvm in node
+    # Miniconda is the little sister of Anaconda
 
-    # Install anaconda 3.7. https://www.anaconda.com/distribution/
+    # Install Miniconda 3.7, 64-bit
+    # https://docs.conda.io/en/latest/miniconda.html
     # Popular Python versions: 2.7, 3.6 and 3.7
 
     $ python --version
@@ -48,7 +50,6 @@ Buckle your seatbelt Dorothy, <br>
 
     # Update conda
     $ conda update conda
-    $ conda update anaconda
 
     # Remove environment
     $ conda env remove --name nanos
