@@ -6,7 +6,7 @@
 * Normal Distribution
 * Celebrity Database
 * MNIST, CIFAR
-* ml5.j Image Classifier
+* ml5.js Image Classifier
 
 
 ### Normal Distribution (Bell curve)
@@ -43,7 +43,7 @@ http://www.learningaboutelectronics.com/Articles/How-to-create-a-normal-distribu
     plt.show()
 
     # Mean: -50, stdev: 5
-    values= np.random.normal(50,10,10000)
+    values= np.random.normal(-50,10,10000)
     plt.hist(values,50)
     plt.show()
 
@@ -177,14 +177,17 @@ http://introtodeeplearning.com/
 https://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html
 
 * CIFAR
-https://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html
+https://cs.stanford.edu/people/karpathy/convnetjs/demo/cifar10.html
 
 
 ### ml5.js
 
-* Image classifier
+* Posenet<br>
+https://ml5js.org/docs/posenet-webcam
+
+* Image classifier<br>
 https://ml5js.org/docs/training-introduction
 
-* Fast Style Transfer
+* Fast Style Transfer<br>
 https://ml5js.org/docs/training-styletransfer
 
