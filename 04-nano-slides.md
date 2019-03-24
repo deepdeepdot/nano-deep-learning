@@ -62,6 +62,7 @@ https://www.kadenze.com/courses/creative-applications-of-deep-learning-with-tens
     import numpy as np
     import os
 
+    # Read the 100 downloaded celebrities in `celebrity_images`
     files = os.listdir("celebrity_images")
     img = plt.imread(os.path.join("celebrity_images", files[50]))
     img.shape
@@ -71,9 +72,7 @@ https://www.kadenze.com/courses/creative-applications-of-deep-learning-with-tens
     img[0,0,0] # R for (0,0) pixel
     img[0,0,1] # G for (0,0) pixel
     img[0,0,2] # B for (0,0) pixel
-    plt.imshow(img[:,:,0], cmap='gray')
-    plt.imshow(img[:,:,1], cmap='gray')
-    plt.imshow(img[:,:,2], cmap='gray')
+    plt.imshow(img[:,:,0], cmap='gray') # Red channel to gray levels
 
 * Python challenge: how can we load all the images into 'imgs' using list comprehensions?
 

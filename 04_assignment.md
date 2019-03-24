@@ -7,10 +7,10 @@ For this assignment, you'll need to accomplish these three items:
 
 You can choose any of the ML5.js projects.
 Easier projects:
-* Mustachio or Mexican Sombrero?
 * Applying Style Transfer
 
 More challenging:
+* Mustachio or Mexican Sombrero?
 * Training Style Transfer
 * Image classifier
 
@@ -76,18 +76,15 @@ C) After you execute all the python code using ipython, save your ipython sessio
 
 https://www.youtube.com/watch?v=H-HVZJ7kGI0&index=1&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI
 
+Questions
+* What's a Convolution?
+* What's ReLU?
+* What's Upsampling?
+
 
 ## 3. ML5.js Projects
 
-### A. Mustachio or Mexican Sombrero?
-
-Modify the Posenet example, so instead of 7 red dots, place a sombrero on top someone's head.
-Or place a mustache or beard on the face (below the eyes and nose)
-Or be creative and try a baseball cap or some Dracula teeth
-https://ml5js.org/docs/posenet-webcam
-
-
-### B. Implementing Style Transfer
+### A. Implementing Style Transfer
 
 What's Style Transfer?<br>
 See: https://github.com/NVIDIA/FastPhotoStyle
@@ -95,8 +92,9 @@ See: https://github.com/NVIDIA/FastPhotoStyle
 Based on a working example for Fast Style Transfer
 https://ml5js.org/docs/style-transfer-image-example
 
+Deliverables
 * Create a web page in which the user can choose any image URL for the image as the source
-* Try out more models designed for ML5
+* Support extra models designed for ML5
 https://github.com/ml5js/ml5-data-and-models/tree/master/models/style-transfer
 
 
@@ -104,6 +102,14 @@ Feature Enhancements (optional)
 * Support for image file upload (need a web server app)
 * Support for drag n drop of images
 * Support custom styles by using a custom model derived from the project below
+
+
+### B. Mustachio or Mexican Sombrero?
+
+Modify the Posenet example, so instead of 7 red dots, place a sombrero on top someone's head.
+Or place a mustache or beard on the face (below the eyes and nose)
+Or be creative and try a baseball cap or some Dracula teeth
+https://ml5js.org/docs/posenet-webcam
 
 
 ### C. Training Style Transfer
