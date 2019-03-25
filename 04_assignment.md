@@ -6,10 +6,10 @@ For this assignment, you'll need to accomplish these three items:
 * Implement one of the projects using ML5.js
     - You can choose any of the ML5.js projects<br>
     These are in increasing order of difficulty:
-    * Applying Style Transfer
-    * Mustachio or Mexican Sombrero?
-    * Image classifier
-    * Training Style Transfer
+        * Applying Style Transfer
+        * Mustachio or Mexican Sombrero?
+        * Image classifier
+        * Training Style Transfer
 
 
 ## 1. CIFAR 10
