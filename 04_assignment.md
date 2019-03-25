@@ -4,17 +4,12 @@ For this assignment, you'll need to accomplish these three items:
 * Run the CIFAR 10 project and save the results
 * Watch MIT's CNN: Computer Vision
 * Implement one of the projects using ML5.js
-
-You can choose any of the ML5.js projects.
-Easier projects:
-* Applying Style Transfer
-
-Intermediate:
-* Mustachio or Mexican Sombrero?
-
-More challenging:
-* Image classifier
-* Training Style Transfer
+    - You can choose any of the ML5.js projects<br>
+    These are in increasing order of difficulty:
+    * Applying Style Transfer
+    * Mustachio or Mexican Sombrero?
+    * Image classifier
+    * Training Style Transfer
 
 
 ## 1. CIFAR 10
