@@ -9,10 +9,12 @@ You can choose any of the ML5.js projects.
 Easier projects:
 * Applying Style Transfer
 
-More challenging:
+Intermediate:
 * Mustachio or Mexican Sombrero?
-* Training Style Transfer
+
+More challenging:
 * Image classifier
+* Training Style Transfer
 
 
 ## 1. CIFAR 10
