@@ -86,7 +86,7 @@ Questions
 What's Style Transfer?<br>
 See: https://github.com/NVIDIA/FastPhotoStyle
 
-Based on a working example for Fast Style Transfer
+Based on a working example for Fast Style Transfer<br>
 https://ml5js.org/docs/style-transfer-image-example
 
 Deliverables
@@ -111,15 +111,15 @@ https://ml5js.org/docs/posenet-webcam
 
 ### C. Image Classifier
 
-Follow the steps to create your image classifier using ml5.js
+Follow the steps to create your image classifier using ml5.js<br>
 https://ml5js.org/docs/training-introduction
 
 #### Youtube: The Coding Train
 
-* A beginner's guide to Machine Learning with ml5.js
+* A beginner's guide to Machine Learning with ml5.js<br>
 https://www.youtube.com/watch?v=jmznx0Q1fP0&vl=en
 
-* ml5.js: Image Classification with MobileNet
+* ml5.js: Image Classification with MobileNet<br>
 https://www.youtube.com/watch?v=yNkAuWz5lnY
 
 
