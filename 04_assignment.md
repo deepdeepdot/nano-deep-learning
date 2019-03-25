@@ -109,19 +109,7 @@ Or be creative and try a baseball cap or some Dracula teeth
 https://ml5js.org/docs/posenet-webcam
 
 
-### C. Training Style Transfer
-
-https://ml5js.org/docs/training-styletransfer
-
-It requires running on a GPU system (like paperspace.com)
-And process 15 GB of image data from the COCO dataset.
-http://cocodataset.org/#home
-
-Using a Titan X, it took 4 to 6 hours for training.
-On a Mac, it can take several months running with CPU.
-
-
-### D. Image Classifier
+### C. Image Classifier
 
 Follow the steps to create your image classifier using ml5.js
 https://ml5js.org/docs/training-introduction
@@ -133,4 +121,17 @@ https://www.youtube.com/watch?v=jmznx0Q1fP0&vl=en
 
 * ml5.js: Image Classification with MobileNet
 https://www.youtube.com/watch?v=yNkAuWz5lnY
+
+
+### D. Training Style Transfer
+
+https://ml5js.org/docs/training-styletransfer
+
+It requires running on a GPU system (like paperspace.com)
+And process 15 GB of image data from the COCO dataset.
+http://cocodataset.org/#home
+
+Using a Titan X, it took 4 to 6 hours for training.
+On a Mac, it can take several months running with CPU.
+
 
