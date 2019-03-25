@@ -21,7 +21,7 @@ In class, we have seen cifar 10 in action with convnet.js<br>
 https://cs.stanford.edu/people/karpathy/convnetjs/demo/cifar10.html
 
 
-Follow the steps for training the CIFAR
+Follow the steps for training the CIFAR 10<br>
 https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html
 
 Deliverables: "04_cifar.txt"
