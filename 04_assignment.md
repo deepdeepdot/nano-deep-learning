@@ -1,4 +1,4 @@
-# Assignment 4: Image Classifier
+# Assignment 4: CIFAR 10 and ML5.js
 
 For this assignment, you'll need to accomplish these three items:
 * Run the CIFAR 10 project and save the results
@@ -20,12 +20,14 @@ https://www.cs.toronto.edu/~kriz/cifar.html
 In class, we have seen cifar 10 in action with convnet.js<br>
 https://cs.stanford.edu/people/karpathy/convnetjs/demo/cifar10.html
 
-
 Follow the steps for training the CIFAR 10<br>
 https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html
 
 Deliverables: "04_cifar.txt"
 It should be placed in your github, folder /hw4
+
+Note: If you have Windows, you can still run the Jupyter notebook using Google Colab<br>
+https://colab.research.google.com/github/pytorch/tutorials/blob/gh-pages/_downloads/cifar10_tutorial.ipynb
 
 
 A) Copy/paste all the output from running this tutorial
@@ -86,24 +88,24 @@ Questions
 What's Style Transfer?<br>
 See: https://github.com/NVIDIA/FastPhotoStyle
 
-Based on a working example for Fast Style Transfer<br>
+This is an example for Fast Style Transfer with source code<br>
 https://ml5js.org/docs/style-transfer-image-example
 
 Deliverables
 * Create a web page in which the user can choose any image URL for the image as the source
-* Support extra models designed for ML5
+* Support extra models designed for ML5<br>
 https://github.com/ml5js/ml5-data-and-models/tree/master/models/style-transfer
 
 
 Feature Enhancements (optional)
 * Support for image file upload (need a web server app)
 * Support for drag n drop of images
-* Support custom styles by using a custom model derived from the project below
+* Support custom styles by using a custom model derived from the project D) Training Style Transfer
 
 
 ### B. Mustachio or Mexican Sombrero?
 
-Modify the Posenet example, so instead of 7 red dots, place a sombrero on top someone's head.
+Modify the Posenet example, so instead of 7 red dots, place a sombrero on top of someone's head.
 Or place a mustache or beard on the face (below the eyes and nose)
 Or be creative and try a baseball cap or some Dracula teeth
 https://ml5js.org/docs/posenet-webcam
@@ -131,7 +133,15 @@ It requires running on a GPU system (like paperspace.com)
 And process 15 GB of image data from the COCO dataset.
 http://cocodataset.org/#home
 
-Using a Titan X, it took 4 to 6 hours for training.
-On a Mac, it can take several months running with CPU.
+The specific COCO data set gets download when running `setup.sh` in a bash shell
+https://github.com/ml5js/training-styletransfer/blob/master/setup.sh
 
+For Windows, you can install a Bash shell
+https://www.windowscentral.com/how-install-bash-shell-command-line-windows-10
+
+Using a Titan X, it took 4 to 6 hours for training.
+On a Mac, it can take several months running with a CPU.
+
+If interested, consider using paperspace.com, pricing is per hour.
+https://blog.paperspace.com/creating-your-own-style-transfer-mirror/
 

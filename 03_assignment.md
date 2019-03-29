@@ -77,7 +77,7 @@ If the quality of the resulting music is not very musical (too random?), it migh
 Prerequisites: make sure to upload your ABC song file in github.
 
 As we have seen in class, these are the steps we followed:
-1) Visit the jupyter notebook
+1) Visit the jupyter notebook<br>
 https://github.com/aamini/introtodeeplearning_labs/blob/master/lab1/Part2_music_generation_solution.ipynb
 
 2) Open the link `"Run in Google Colab"`, which willl open the Jupyter notebook on Google Colab using the GPU runtime. You'll need to sign in with your gmail account to access this page.
