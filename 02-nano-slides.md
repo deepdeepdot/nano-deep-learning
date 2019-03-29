@@ -38,6 +38,7 @@ https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook
 - Execute cell: Shift+Return
 
 - How to add the nano kernel to jupyter
+
         $ conda install nb_conda
         $ conda install ipykernel
         $ ipython kernel install --user --name nanos --display-name "Python (nano)"
@@ -80,7 +81,6 @@ https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook
         [0, 1, 3, 1]]
 
     B = [[3, 1], [4, 4], [6, 5], [2, 0]]
-    
     X = np.matmul(A, B)
     X.T
 
@@ -115,10 +115,8 @@ https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook
 #### Lambdas
 
     # Lambda: short inline function
-
     add10 = lambda a: a + 10
-    type(add10)
-    print(add10(23))
+    print(type(add10), add10(23))
 
     def compute(func, param):
         return func(param)

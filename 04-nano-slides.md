@@ -179,20 +179,20 @@ http://introtodeeplearning.com/
 
 ### CIFAR 10
 
-* Image classification
 * https://www.cs.toronto.edu/~kriz/cifar.html
-* The CIFAR-10:
-    - 60,000 32x32 images in 10 classes, 6,000 images per class.
-    - There are 50,000 training images and 10,000 test images.
+* Data set for image classification
+* 60,000 32x32 images in 10 classes.
+* 6,000 images per class.
+* 50,000 training images and 10,000 test images.
 * Categories: airplane, bird, cat, deer, dog, horse, ship, truck
 
 
-### Convnet.js
+### Karpathy's Convnet.js
 
 * MNIST
 https://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html
 
-* CIFAR
+* CIFAR 10
 https://cs.stanford.edu/people/karpathy/convnetjs/demo/cifar10.html
 
 
@@ -206,5 +206,10 @@ https://ml5js.org/docs/training-introduction
 
 * Fast Style Transfer<br>
 https://ml5js.org/docs/training-styletransfer
+
+
+### Style Transfer
+
 https://github.com/NVIDIA/FastPhotoStyle
+https://blog.paperspace.com/art-with-neural-networks/
 

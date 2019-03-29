@@ -311,7 +311,6 @@ http://abcnotation.com/examples
 #### Are we there?
     # But there are many points with slope = 0
     # Let's get a "better" approximation to Min(x,Y(x))
-
     step=.49, .51
     p1 = (1.49, Y(1.49))
     p2 = (1.51, Y(1.51))

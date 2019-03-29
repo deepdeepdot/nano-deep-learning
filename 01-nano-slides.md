@@ -360,10 +360,10 @@ http://setosa.io/ev/image-kernels/
   - Rotation
   - Scaling
 
-- No worries. This will be covered in your algebra class!
-- Computer Graphics depends heavily on matrix transforms.
+- No worries. Your algebra in school will cover this.
+- Computer Graphics (and Computer Video Games) depends heavily on matrix transforms.
 
-* Interactive Algebra
+* Interactive Algebra<br>
 http://immersivemath.com/ila/index.html
 
 
