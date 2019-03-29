@@ -133,15 +133,15 @@ It requires running on a GPU system (like paperspace.com)
 And process 15 GB of image data from the COCO dataset.
 http://cocodataset.org/#home
 
-The specific COCO data set gets download when running `setup.sh` in a bash shell
+The specific COCO data set gets download when running `setup.sh` in a bash shell.<br>
 https://github.com/ml5js/training-styletransfer/blob/master/setup.sh
 
-For Windows, you can install a Bash shell
+For Windows, you can install a Bash shell.<br>
 https://www.windowscentral.com/how-install-bash-shell-command-line-windows-10
 
 Using a Titan X, it took 4 to 6 hours for training.
 On a Mac, it can take several months running with a CPU.
 
-If interested, consider using paperspace.com, pricing is per hour.
+If interested, consider using paperspace.com, pricing is per hour.<br>
 https://blog.paperspace.com/creating-your-own-style-transfer-mirror/
 
