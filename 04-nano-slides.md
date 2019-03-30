@@ -147,9 +147,8 @@ https://www.kadenze.com/courses/creative-applications-of-deep-learning-with-tens
 ### Computer Vision
 
 #### CNN: Convolutional Neural Networks
-http://introtodeeplearning.com/
-
-[Slides (Part 3)](http://introtodeeplearning.com/materials/2019_6S191_L3.pdf)
+* [Guide to Understanding Convolutional Neural Networks](https://adeshpande3.github.io/adeshpande3.github.io/A-Beginner%27s-Guide-To-Understanding-Convolutional-Neural-Networks/)
+* [IntroToDeeplearning.com Slides (Part 3)](http://introtodeeplearning.com/materials/2019_6S191_L3.pdf)
 
 
 ### CNN Layers
@@ -174,8 +173,6 @@ http://introtodeeplearning.com/
 * MNIST workshop with Tensorflow
     - https://github.com/aamini/introtodeeplearning_labs/blob/master/lab2/Part1_mnist_solution.ipynb
 
-* http://neuralnetworksanddeeplearning.com/chap1.html
-
 
 ### CIFAR 10
 
@@ -187,13 +184,16 @@ http://introtodeeplearning.com/
 * Categories: airplane, bird, cat, deer, dog, horse, ship, truck
 
 
-### Karpathy's Convnet.js
+#### Browser-based Training Deep Learning
 
-* MNIST
-https://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html
+* Karpathy's Convnet.js
+    - [MNIST](https://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html)
+    - [CIFAR 10](https://cs.stanford.edu/people/karpathy/convnetjs/demo/cifar10.html)
+    - [Convnet.js Github](https://github.com/karpathy/convnetjs)
 
-* CIFAR 10
-https://cs.stanford.edu/people/karpathy/convnetjs/demo/cifar10.html
+* Transcranial's Keras.js
+    - Demo: https://transcranial.github.io/keras-js
+    - Code: https://github.com/transcranial/keras-js
 
 
 ### ml5.js
@@ -212,4 +212,9 @@ https://ml5js.org/docs/training-styletransfer
 
 https://github.com/NVIDIA/FastPhotoStyle
 https://blog.paperspace.com/art-with-neural-networks/
+
+
+### MNIST Reference
+* [Image Classification with MNIST](https://towardsdatascience.com/image-classification-in-10-minutes-with-mnist-dataset-54c35b77a38d)
+* http://neuralnetworksanddeeplearning.com/chap1.html
 

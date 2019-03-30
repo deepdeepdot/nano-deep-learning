@@ -1,4 +1,4 @@
-### Nano Deep Learning for Teens in 7 Sessions
+### Nano Deep Learning for Teens in 6 Sessions
 
 This course was prepared for the [Nanohacker](https://www.nanohackers.org/) community. Thanks to [Thoughtworks](https://www.thoughtworks.com/locations/new-york) for hosting our sessions!
 
@@ -82,12 +82,10 @@ Session #5
 * Binary tree and tree recursion
 * Sequence modeling: RNN, GRU, LSTM
 * Slides: http://introtodeeplearning.com/materials/2019_6S191_L2.pdf
+* Magenta.js: Drum RNN
 
 
 Session #6
 * Neural Networks slides: http://introtodeeplearning.com/materials/2019_6S191_L1.pdf
 
 
-Session #7
-* Homework reviews
-* Final quizz
