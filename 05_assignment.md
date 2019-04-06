@@ -24,12 +24,12 @@ class Node:
         value_right = self.eval(node.right)
         return node.data( value_left, value_right )
 
-# Expression for: "4 / 2 + 3 * 4"
-root = Node(operations['+'],
-    left=Node(operations['/'], left=Node(4), right=Node(2)),
-    right=Node(operations['*'], left=Node(3), right=Node(4))
-)
-total = root.eval()
+    # Expression for: "4 / 2 + 3 * 4"
+    root = Node(operations['+'],
+        left=Node(operations['/'], left=Node(4), right=Node(2)),
+        right=Node(operations['*'], left=Node(3), right=Node(4))
+    )
+    total = root.eval()
 
 #### Part A
 
@@ -39,16 +39,18 @@ Implement the expression: "3*1+6/3-3+5".
 There are multiple implementations for such implementation.
 See if you can come up with all of them, or at least one.
 
+
 #### Part B
+
 Tensorflow supports tf.add(), tf.subtract, tf.multiply and so on.
 Let's support this in our example.
 
-class tf:
-    def add(right, left):
-        return Node(operations['+'], right, left)
+    class tf:
+        def add(right, left):
+            return Node(operations['+'], right, left)
 
-root = tf.add(Node(4), Node(5))
-root.eval()
+    root = tf.add(Node(4), Node(5))
+    root.eval()
 
 1) In class `tf`, implement the other three operations: subtract, divide, and multiply
 
