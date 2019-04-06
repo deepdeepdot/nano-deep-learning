@@ -61,23 +61,25 @@ Let's support this in our example.
 
 ### HTML
 
-html = ["html", [
-    "head", [
-        "title", "Learning the Buddha"
-    ],
-    "body", [
-        ["h1", "The Four Noble Truths")]
-        ["ul", [
-            ["li", "What's suffering?"],
-            ["li", "The cause of suffering"],
-            ["li", "The end of suffering"],
-            ["li", "A path to the end of suffering"],
+Consider the following recursive definition of some webpage
+
+    webpage = ["html", [
+        "head", [
+            "title", "Learning the Buddha"
+        ],
+        "body", [
+            ["h1", "The Four Noble Truths")]
+            ["ul", [
+                ["li", "What's suffering?"],
+                ["li", "The cause of suffering"],
+                ["li", "The end of suffering"],
+                ["li", "A path to the end of suffering"],
+            ])
         ])
     ])
-])
 
 1. Write a recursive function to print this hmtl tree
-    Hint: from the looks, if the second item is an array, we need to recurse
+    Hint: from the looks, if the second item is an array, we need to use recursion.
 
 2. Add indentation when printing the html tree
 
@@ -86,36 +88,36 @@ html = ["html", [
 
 1. Implement the dom class with the following API
 
-    dom(tag, id, tagAttributes, text, children)
+        dom(tag, id, tagAttributes, text, children)
 
-    html = dom("html", children=[
-        dom("head", children=[
-            dom("title", text="deep learning for dummies")
-        ]),
-        dom("body", children=[
-            dom("h1", text="The four noble truths"),
-            dom("ul", children=[
-                dom("li", text="What's suffering?"),
-                dom("li", text="The cause of suffering"),
-                dom("li", text="The end of suffering"),
-                dom("li", text="A path to the end of suffering"),
+        webpage = dom("html", children=[
+            dom("head", children=[
+                dom("title", text="deep learning for dummies")
             ]),
-            dom("p", id="last_mark", text="")
+            dom("body", children=[
+                dom("h1", text="The four noble truths"),
+                dom("ul", children=[
+                    dom("li", text="What's suffering?"),
+                    dom("li", text="The cause of suffering"),
+                    dom("li", text="The end of suffering"),
+                    dom("li", text="A path to the end of suffering"),
+                ]),
+                dom("p", id="last_mark", text="")
+            ])
         ])
-    ])
 
 2. Implement a recursive indented printing function
 
 3. How about supporting the image tag?
 
-    img = dom("img", {
-        source: "https://minecraft.net/favicon-32x32.png",
-        title: "Minecraft"
-    });
+        img = dom("img", {
+            source: "https://minecraft.net/favicon-32x32.png",
+            title: "Minecraft"
+        });
 
 4. Implement more APIs to support the following
 
-    html.getElementById("last_mark").appendChild(img)
+        webpage.getElementById("last_mark").appendChild(img)
 
-    # Print recursively the resulting HTML tree
+    Print recursively the resulting HTML tree
 
