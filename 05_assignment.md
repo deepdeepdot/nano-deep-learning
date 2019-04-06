@@ -2,27 +2,27 @@
 
 In class, we have seen the class Node that supports recursive numeric expressions and some examples of Tensorflow.
 
-operations = {
-    '+': lambda a, b: a + b,
-    '-': lambda a, b: a - b,
-    '*': lambda a, b: a * b,
-    '/': lambda a, b: a / b
-}
+    operations = {
+        '+': lambda a, b: a + b,
+        '-': lambda a, b: a - b,
+        '*': lambda a, b: a * b,
+        '/': lambda a, b: a / b
+    }
 
-class Node:
-    def __init__(self, data=None, left=None, right=None):
-        self.data = data
-        self.left = left
-        self.right = right
+    class Node:
+        def __init__(self, data=None, left=None, right=None):
+            self.data = data
+            self.left = left
+            self.right = right
 
-    def eval(self, node=None):
-        if (node is None): return self.eval(self) # for root.eval()
-        if type(node.data) == int or type(node.data) == float:
-            return node.data
+        def eval(self, node=None):
+            if (node is None): return self.eval(self) # for root.eval()
+            if type(node.data) == int or type(node.data) == float:
+                return node.data
 
-        value_left = self.eval(node.left)
-        value_right = self.eval(node.right)
-        return node.data( value_left, value_right )
+            value_left = self.eval(node.left)
+            value_right = self.eval(node.right)
+            return node.data( value_left, value_right )
 
     # Expression for: "4 / 2 + 3 * 4"
     root = Node(operations['+'],
@@ -35,8 +35,8 @@ class Node:
 
 The previous example is for the expression: "4 / 2 + 3 * 4"
 
-Implement the expression: "3*1+6/3-3+5".
-There are multiple implementations for such implementation.
+Implement the expression: "3*1+6/3-3+5".<br>
+There are multiple implementations for such implementation.<br>
 See if you can come up with all of them, or at least one.
 
 
