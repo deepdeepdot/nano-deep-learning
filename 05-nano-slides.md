@@ -64,7 +64,7 @@ http://blog.recursiveprocess.com/2014/04/05/mandelbrot-fractal-v2/
 #### Recursive definitions
 
     Fibonacci
-    fib(0) = 1
+    fib(0) = 0
     fib(1) = 1
     fib(n) = fib(n-1) + fib(n-2) # for n > 1
 
