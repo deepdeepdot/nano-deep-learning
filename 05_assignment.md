@@ -1,3 +1,67 @@
+
+### HTML recursion
+
+Consider the following recursive definition of some webpage
+
+    webpage = ["html", [
+        "head", [
+            "title", "Learning the Buddha"
+        ],
+        "body", [
+            ["h1", "The Four Noble Truths")]
+            ["ul", [
+                ["li", "What's suffering?"],
+                ["li", "The cause of suffering"],
+                ["li", "The end of suffering"],
+                ["li", "A path to the end of suffering"],
+            ])
+        ])
+    ])
+
+1. Write a recursive function to print this hmtl tree
+    Hint: from the looks, if the second item is an array, we need to use recursion.
+
+2. Add indentation when printing the html tree
+
+
+### HTML DOM Tree
+
+1. Implement the dom class with the following API
+
+        dom(tag, id, tagAttributes, text, children)
+
+        webpage = dom("html", children=[
+            dom("head", children=[
+                dom("title", text="deep learning for dummies")
+            ]),
+            dom("body", children=[
+                dom("h1", text="The four noble truths"),
+                dom("ul", children=[
+                    dom("li", text="What's suffering?"),
+                    dom("li", text="The cause of suffering"),
+                    dom("li", text="The end of suffering"),
+                    dom("li", text="A path to the end of suffering"),
+                ]),
+                dom("p", id="last_mark", text="")
+            ])
+        ])
+
+2. Implement a recursive indented printing function
+
+3. How about supporting the image tag?
+
+        img = dom("img", {
+            source: "https://minecraft.net/favicon-32x32.png",
+            title: "Minecraft"
+        });
+
+4. Implement more APIs to support the following
+
+        webpage.getElementById("last_mark").appendChild(img)
+
+    Print recursively the resulting HTML tree
+
+
 ### Computational Graph
 
 In class, we have seen the class Node that supports recursive numeric expressions and some examples of Tensorflow.
@@ -57,67 +121,4 @@ Let's support this in our example.
 2) Using the class `tf`, rewrite the expression "4 / 2 + 3 * 4"
 
 3) Using the class `tf`, rewrite the expression "3 * 1 + 6 / 3 - 3 + 5"
-
-
-### HTML
-
-Consider the following recursive definition of some webpage
-
-    webpage = ["html", [
-        "head", [
-            "title", "Learning the Buddha"
-        ],
-        "body", [
-            ["h1", "The Four Noble Truths")]
-            ["ul", [
-                ["li", "What's suffering?"],
-                ["li", "The cause of suffering"],
-                ["li", "The end of suffering"],
-                ["li", "A path to the end of suffering"],
-            ])
-        ])
-    ])
-
-1. Write a recursive function to print this hmtl tree
-    Hint: from the looks, if the second item is an array, we need to use recursion.
-
-2. Add indentation when printing the html tree
-
-
-### HTML DOM
-
-1. Implement the dom class with the following API
-
-        dom(tag, id, tagAttributes, text, children)
-
-        webpage = dom("html", children=[
-            dom("head", children=[
-                dom("title", text="deep learning for dummies")
-            ]),
-            dom("body", children=[
-                dom("h1", text="The four noble truths"),
-                dom("ul", children=[
-                    dom("li", text="What's suffering?"),
-                    dom("li", text="The cause of suffering"),
-                    dom("li", text="The end of suffering"),
-                    dom("li", text="A path to the end of suffering"),
-                ]),
-                dom("p", id="last_mark", text="")
-            ])
-        ])
-
-2. Implement a recursive indented printing function
-
-3. How about supporting the image tag?
-
-        img = dom("img", {
-            source: "https://minecraft.net/favicon-32x32.png",
-            title: "Minecraft"
-        });
-
-4. Implement more APIs to support the following
-
-        webpage.getElementById("last_mark").appendChild(img)
-
-    Print recursively the resulting HTML tree
 
