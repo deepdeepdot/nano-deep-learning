@@ -42,7 +42,7 @@ See if you can come up with all of them, or at least one.
 
 #### Part B
 
-Tensorflow supports tf.add(), tf.subtract, tf.multiply and so on.
+Tensorflow supports tf.add(), tf.subtract, tf.multiply, tf.constant and so on.
 Let's support this in our example.
 
     class tf:
