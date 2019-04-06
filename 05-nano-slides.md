@@ -1,10 +1,10 @@
-### Tree and recursion
+### Tensorflow Calculator
 
 * Calculator
 * Recursion
 * Trees
 * Tensorflow
-* RNN, LSTM
+* Karpathy's RNN, LSTM
 * Music RNN
 * Magenta.js
 
@@ -135,10 +135,10 @@ A random dungeon generator that fits on a business card
       if (len(expression) == 1):
         return expression[0] # must be a number, right?
       else:
-        operand = expression[0] 
-        left = eval_expression(expression[1])
-        right = eval_expression(expression[2])
-        return operations[operand](left, right)
+        operand = operations[ expression[0] ]
+        left = eval_expression( expression[1] )
+        right = eval_expression( expression[2] )
+        return operand(left, right)
 
     print("Total: ", eval_expression(computational_expression))
 
@@ -181,11 +181,12 @@ A random dungeon generator that fits on a business card
     def visit(node):
       if node != None:
         visit(node["left"])
-        print(node["data"])
+        print(node["data"]) # in-order traversal, pre/post?
         visit(node["right"])
       
     visit(root)
-    # What if we "print" after visiting right and left?
+    # What if we "print" before visiting right and left? Pre-order
+    # What if we "print" after visiting right and left? Post-order
 
 
 ### Node class
@@ -296,6 +297,15 @@ Implement 'eval()'
 
       w.assign(10)
       computed_z2 = sess.run(z)
+
+
+#### Why Tensorflow uses a computational graph?
+
+* It's not only Tensorflow, all other machine learning frameworks are based on a computational graph too, such as: Pytorch, Theano, MXNET, Caffe
+* Why use a computation graph?
+* A Computational graph has a forward step to compute a prediction and backward step to compute the gradients.
+* We need to do backpropagation to minimize the error loss function
+See introduction to neural networks (Stanford): https://www.youtube.com/watch?v=d14TUNcbn1k&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv&index=4
 
 
 ### Tensorflow tutorial for MNIST
@@ -417,6 +427,7 @@ Drum RNN
 Improv RNN
 * https://github.com/tensorflow/magenta/tree/master/magenta/models/improv_rnn
 
+
 ### Tensorflow References
 
 * PDF slides: http://web.stanford.edu/class/cs20si/syllabus.html
@@ -426,14 +437,8 @@ https://www.youtube.com/playlist?list=PL9Hr9sNUjfsmEu1ZniY0XpHSzl5uihcXZ
 https://github.com/Hvass-Labs/TensorFlow-Tutorials
 
 
-====
+### Chatbot Assistant
 
-Assignments
-1) Some tree/recursion? Maybe support the unary operator?
-2) Tensorflow computation with 2 variables -> code
-3) RNN projects: replicate some of the demo projects
-  GPT-2 model?
-
-NeuralTalk (or Google Image captioning)
-Image captioning replication!
-
+* https://rasa.com
+* https://rasa.com/docs/get_started_step3/
+* https://github.com/RasaHQ/starter-pack-rasa-stack
