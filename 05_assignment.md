@@ -36,7 +36,7 @@ In class, we have seen the class Node that supports recursive numeric expression
 The previous example is for the expression: "4 / 2 + 3 * 4"
 
 Implement the expression: "3*1+6/3-3+5".<br>
-There are multiple implementations for such implementation.<br>
+There are multiple implementations for the above example.<br>
 See if you can come up with all of them, or at least one.
 
 
