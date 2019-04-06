@@ -229,7 +229,7 @@ Implement 'eval()'
 
 ### Parser?
 
-* What's wrong with our calculator?
+* What's missing in our calculator?
   - It's hardcoded for the expression: "4 / 2 + 3 * 4"
   - No support for parenthensis, unary operators (negative)
   - How can we make it dynamic? How do we support variables?
