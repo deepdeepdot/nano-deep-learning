@@ -94,5 +94,5 @@ Session #6: Neural Networks
 
 1) [NN, Neural Networks](http://introtodeeplearning.com/materials/2019_6S191_L1.pdf)
 2) [CNN, Convolutional NN, Computer Vision](http://introtodeeplearning.com/materials/2019_6S191_L3.pdf)
-3) [RNN, Recurrence NN, Sequence Modeling](http://introtodeeplearning.com/materials/2019_6S191_L2.pdf)
+3) [RNN, Recurrent NN, Sequence Modeling](http://introtodeeplearning.com/materials/2019_6S191_L2.pdf)
 
