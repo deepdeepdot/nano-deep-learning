@@ -26,23 +26,23 @@ Hint: from the looks, if the second item is an array, we need to use recursion.
 
 ### HTML DOM Tree
 
-1. Implement the dom class with the following API
+1. Implement the Dom class with the following API
 
-        dom(tag, id, tagAttributes, text, children)
+        Dom(tag, id, tagAttributes, text, children)
 
-        webpage = dom("html", children=[
-            dom("head", children=[
-                dom("title", text="deep learning for dummies")
+        webpage = Dom("html", children=[
+            Dom("head", children=[
+                Dom("title", text="deep learning for dummies")
             ]),
-            dom("body", children=[
-                dom("h1", text="The four noble truths"),
-                dom("ul", children=[
-                    dom("li", text="What's suffering?"),
-                    dom("li", text="The cause of suffering"),
-                    dom("li", text="The end of suffering"),
-                    dom("li", text="A path to the end of suffering"),
+            Dom("body", children=[
+                Dom("h1", text="The four noble truths"),
+                Dom("ul", children=[
+                    Dom("li", text="What's suffering?"),
+                    Dom("li", text="The cause of suffering"),
+                    Dom("li", text="The end of suffering"),
+                    Dom("li", text="A path to the end of suffering"),
                 ]),
-                dom("p", id="last_mark", text="")
+                Dom("p", id="last_mark", text="")
             ])
         ])
 
@@ -50,7 +50,7 @@ Hint: from the looks, if the second item is an array, we need to use recursion.
 
 3. How about supporting the image tag?
 
-        img = dom("img", {
+        img = Dom("img", {
             source: "https://minecraft.net/favicon-32x32.png",
             title: "Minecraft"
         });
@@ -124,4 +124,15 @@ Let's support this in our example.
 2) Using the class `tf`, rewrite the expression "4 / 2 + 3 * 4"
 
 3) Using the class `tf`, rewrite the expression "3 * 1 + 6 / 3 - 3 + 5"
+
+
+### Image Captioning
+
+
+
+
+### Rasa Chatbot AI
+
+This is optional due to the installation requirements. It assumes a Linux-based system.
+
 
