@@ -153,8 +153,6 @@ https://www.kadenze.com/courses/creative-applications-of-deep-learning-with-tens
 
 ### CNN Layers
 
-![MaxPooling Image](img/maxpool.png)
-
 ![CNN Image](img/cnn-deep-learning.png)
 ###### MIT 6.S191 Introduction to Deep Learning
 
