@@ -153,6 +153,8 @@ https://www.kadenze.com/courses/creative-applications-of-deep-learning-with-tens
 
 ### CNN Layers
 
+![MaxPooling Image](img/maxpool.png)
+
 ![CNN Image](img/cnn-deep-learning.png)
 ###### MIT 6.S191 Introduction to Deep Learning
 
@@ -210,8 +212,8 @@ https://ml5js.org/docs/training-styletransfer
 
 ### Style Transfer
 
-https://github.com/NVIDIA/FastPhotoStyle
-https://blog.paperspace.com/art-with-neural-networks/
+* https://github.com/NVIDIA/FastPhotoStyle
+* https://blog.paperspace.com/art-with-neural-networks/
 
 
 ### MNIST Reference

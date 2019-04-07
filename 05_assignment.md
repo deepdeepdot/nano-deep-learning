@@ -80,7 +80,10 @@ In class, we have seen the class Node that supports recursive numeric expression
             self.right = right
 
         def eval(self, node=None):
-            if (node is None): return self.eval(self) # for root.eval()
+            if node is None: return self.eval(self) # for node.eval()
+
+            # Alternative:
+            # isLeaf = node.right is None and node.left is None
             if type(node.data) == int or type(node.data) == float:
                 return node.data
 

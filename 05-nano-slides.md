@@ -1,10 +1,13 @@
-### Tensorflow Calculator
+### V. Text and Language
+
+
+### Topics
 
 * Calculator
 * Recursion
 * Trees
-* Tensorflow
-* Karpathy's RNN, LSTM
+* Tensorflow as Calculator
+* Karpathy's RNN
 * Music RNN
 * Magenta.js
 
@@ -325,6 +328,14 @@ https://www.katacoda.com/basiafusinska/courses/tensorflow-getting-started
 https://www.youtube.com/playlist?list=PL9ooVrP1hQOEX8BKDplfG86ky8s7Oxbzg
 
 
+### Sequence Modeling
+
+* Standard Neural Networks are of fixed length input and fixed length output
+* How do we handle variable length inputs and/or variable length outputs?
+* Use cases: text generation, music generation, machine translation
+* Answer: RNN = Recurrent Neural Networks!
+
+
 ### RNN
 
 The Unreasonable Effectiveness of Recurrent Neural Networks<br>
@@ -333,7 +344,13 @@ https://karpathy.github.io/2015/05/21/rnn-effectiveness/
 https://skillsmatter.com/skillscasts/6611-visualizing-and-understanding-recurrent-networks
 
 
-Min-char-rnn, character-level RNN
+### RNN architectures
+
+![RNN achitectures](img/rnn-architectures.jpg)
+##### Source: [Karpathy's blog: The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+
+
+### Min-char-rnn, character-level RNN
 
 Karpathy
 https://gist.github.com/karpathy/d4dee566867f8291f086
@@ -343,27 +360,28 @@ https://gist.github.com/vinhkhuc/7ec5bf797308279dc587
 https://gist.github.com/muggin/3097e7ed45a75dd53bd96c0e430a2895
 
 
-char-rnn: same as min-char-rnn, BUT using LSTM and running with GPU
-char-rnn (lstm, 3-levels, 700 nodes, 1 GPU, 1 day)
-https://github.com/karpathy/char-rnn
+### char-rnn
 
-700 x 3 cells
+* https://github.com/karpathy/char-rnn
+* char-rnn: same as min-char-rnn, BUT using LSTM and running with GPU
+* char-rnn (lstm, 3-levels, 700 nodes, 1 GPU, 1 day)
+* 700 x 3 cells
 
-Nicer version
+* Nicer version?<br>
 Justin Johnson: https://github.com/jcjohnson/torch-rnn
 
-==> Basic Cheese Wings (dessert)
 
+### RNN Examples
+
+* Basic Cheese Wings (dessert)<br>
 https://gist.github.com/nylki/1efbaa36635956d35bcc
 
+* Tiny Shakespeare<br>
+  - https://github.com/crazydonkey200/tensorflow-char-rnn
+  - https://github.com/sherjilozair/char-rnn-tensorflow
 
- - Visual Analysis for Recurrent Neural Networks
+* Visual Analysis for Recurrent Neural Networks<br>
 http://lstm.seas.harvard.edu/
-
-
-tiny shakespeare
-https://github.com/crazydonkey200/tensorflow-char-rnn
-https://github.com/sherjilozair/char-rnn-tensorflow
 
 
 ### Image captioning
@@ -374,14 +392,17 @@ https://github.com/karpathy/neuraltalk
 * NeuralTalk 2
 https://github.com/karpathy/neuraltalk2
 
-  Demos
+* Demos
   - https://cs.stanford.edu/people/karpathy/neuraltalk2/demo.html
   - https://vimeo.com/146492001
 
-* Google Image Captioning: Show and Tell
-https://ai.googleblog.com/2016/09/show-and-tell-image-captioning-open.html
-https://github.com/tensorflow/models/tree/master/research/im2txt
-Requirements: https://github.com/tensorflow/models/blob/master/research/im2txt/conda-env/ubuntu-18-04-environment.yaml
+
+### Google's Show and Tell
+
+* https://ai.googleblog.com/2016/09/show-and-tell-image-captioning-open.html
+* https://github.com/tensorflow/models/tree/master/research/im2txt
+* Requirements:<br>
+https://github.com/tensorflow/models/blob/master/research/im2txt/conda-env/ubuntu-18-04-environment.yaml
 
 
 ### Language Models
