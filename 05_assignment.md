@@ -18,8 +18,8 @@ Consider the following recursive definition of some webpage
         ])
     ])
 
-1. Write a recursive function to print this hmtl tree
-    Hint: from the looks, if the second item is an array, we need to use recursion.
+1. Write a recursive function to print this hmtl tree<br>
+Hint: from the looks, if the second item is an array, we need to use recursion.
 
 2. Add indentation when printing the html tree
 
