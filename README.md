@@ -1,4 +1,4 @@
-### Nano Deep Learning for Teens in 6 Sessions
+### Guide to Deep Learning for Teens in 6 Sessions
 
 This course was prepared for the [Nanohacker](https://www.nanohackers.org/) community. Thanks to [Thoughtworks](https://www.thoughtworks.com/locations/new-york) for hosting our sessions!
 
@@ -43,12 +43,14 @@ Math Cheatsheet https://www.flickr.com/photos/95869671@N08/40544016221
 
 ### Sources
 
-I decided not to recreate slides that have been wonderfully created by other free online courses. And also reuse much of the available online material on the net.
+I decided not to recreate slides that have been wonderfully created by other free online course and also reuse much of the available online material on the net.
+
 
 #### Tutorials
 * https://www.kadenze.com/courses/creative-applications-of-deep-learning-with-tensorflow/info
 * http://introtodeeplearning.com
 * https://matplotlib.org
+
 
 #### Slides
 * Deep Learning: http://introtodeeplearning.com
@@ -57,35 +59,40 @@ I decided not to recreate slides that have been wonderfully created by other fre
 
 ### Sections (tentative)
 
-[Session #1](01-nano-slides.md)
+[Session #1: Matrix and Convolutions](01-nano-slides.md)
 * Math: Matrix
 * Image filters
 * Python installation, running
 
-[Session #2](02-nano-slides.md)
+[Session #2: Functions and Plotting](02-nano-slides.md)
 * Jupyter notebooks and ipython
 * Python: lambdas, map, numpy
 * Plotting a function using matplotlib
 
-[Session #3](03-nano-slides.md)
+[Session #3: Music Generation](03-nano-slides.md)
 * Irish music generation using Deep Learning
 * Scrapping ABC Music files
 * Math: Slope of a function
 
-[Session #4](04-nano-slides.md)
+[Session #4: Image Classifiers](04-nano-slides.md)
 * Normal distribution
 * Image classifiers: MNIST, CIFAR, ml5.js
-* Computer vision slides: http://introtodeeplearning.com/materials/2019_6S191_L3.pdf
+* ml5.js
 
-
-Session #5
+[Session #5: Text and Language](05-nano-slides.md)
 * Binary tree and tree recursion
-* Sequence modeling: RNN, GRU, LSTM
-* Slides: http://introtodeeplearning.com/materials/2019_6S191_L2.pdf
+* Tensorflow as a computational graph
+* Andrej Karpathy's RNN
 * Magenta.js: Drum RNN
+* Rasa, chatbot AI
+
+Session #6: Neural Networks
+* TBD 
 
 
-Session #6
-* Neural Networks slides: http://introtodeeplearning.com/materials/2019_6S191_L1.pdf
+### Slides from IntroToDeepLearning.com
 
+1) [NN, Neural Networks](http://introtodeeplearning.com/materials/2019_6S191_L1.pdf)
+2) [CNN, Convolutional NN, Computer Vision](http://introtodeeplearning.com/materials/2019_6S191_L3.pdf)
+3) [RNN, Recurrence NN, Sequence Modeling](http://introtodeeplearning.com/materials/2019_6S191_L2.pdf)
 
