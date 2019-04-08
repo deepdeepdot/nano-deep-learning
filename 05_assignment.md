@@ -1,4 +1,3 @@
-
 ### HTML recursion
 
 Consider the following recursive definition of some webpage
@@ -128,11 +127,14 @@ Let's support this in our example.
 
 ### Image Captioning
 
-
+Optional: install and play with NeuraTalk2 (it depends on Lua)
+https://github.com/karpathy/neuraltalk2
 
 
 ### Rasa Chatbot AI
 
-This is optional due to the installation requirements. It assumes a Linux-based system.
+Optional: install and execute a chat bot
+http://rasa.com
+
 
 

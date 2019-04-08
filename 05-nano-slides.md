@@ -230,10 +230,10 @@ Implement 'eval()'
         return node.data( value_left, value_right )
 
 
-### Parser?
+### Parser
 
 * What's missing in our calculator?
-  - It's hardcoded for the expression: "4 / 2 + 3 * 4"
+  - It's hardcoded for the expression: "4/2+3*4"
   - No support for parenthensis, unary operators (negative)
   - How can we make it dynamic? How do we support variables?
 
@@ -304,11 +304,12 @@ Implement 'eval()'
 
 #### Why Tensorflow uses a computational graph?
 
-* It's not only Tensorflow, all other machine learning frameworks are based on a computational graph too, such as: Pytorch, Theano, MXNET, Caffe
-* Why use a computation graph?
-* A Computational graph has a forward step to compute a prediction and backward step to compute the gradients.
-* We need to do backpropagation to minimize the error loss function
-See introduction to neural networks (Stanford): https://www.youtube.com/watch?v=d14TUNcbn1k&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv&index=4
+* All other machine learning frameworks are also based on a
+  computational graph, such as: Caffe, Pytorch, Theano, etc.
+* A Computational graph has a forward step to compute a prediction
+  and backward step to compute the gradients. This graph enables
+  `Backpropagation` to minimize the error loss function.
+* We can split the graph to run with multiple GPUs, CPUs and TPUs.
 
 
 ### Tensorflow tutorial for MNIST
@@ -350,12 +351,12 @@ https://skillsmatter.com/skillscasts/6611-visualizing-and-understanding-recurren
 ##### Source: [Karpathy's blog: The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 
 
-### Min-char-rnn, character-level RNN
+#### Min-char-rnn, character-level RNN
 
-Karpathy
+Karpathy<br>
 https://gist.github.com/karpathy/d4dee566867f8291f086
 
-Others:
+Others:<br>
 https://gist.github.com/vinhkhuc/7ec5bf797308279dc587
 https://gist.github.com/muggin/3097e7ed45a75dd53bd96c0e430a2895
 
@@ -367,8 +368,8 @@ https://gist.github.com/muggin/3097e7ed45a75dd53bd96c0e430a2895
 * char-rnn (lstm, 3-levels, 700 nodes, 1 GPU, 1 day)
 * 700 x 3 cells
 
-* Nicer version?<br>
-Justin Johnson: https://github.com/jcjohnson/torch-rnn
+* Nicer version? Justin Johnson<br>
+https://github.com/jcjohnson/torch-rnn
 
 
 ### RNN Examples
@@ -463,3 +464,6 @@ https://github.com/Hvass-Labs/TensorFlow-Tutorials
 * https://rasa.com
 * https://rasa.com/docs/get_started_step3/
 * https://github.com/RasaHQ/starter-pack-rasa-stack
+
+* Amazon Lex<br>
+https://aws.amazon.com/lex/
