@@ -19,11 +19,14 @@ Consider the following recursive definition of some webpage
 
 1. Write a recursive function to print this hmtl tree<br>
 Hint: from the looks, if the second item is an array, we need to use recursion.
+The solution needs to be done using Python
 
 2. Add indentation when printing the html tree
 
 
 ### HTML DOM Tree
+
+Note: Though we mention the HTML DOM Tree, this is a Python-based exercise, not browser-based Javascript. We are emulating the HTML DOM API using python.
 
 1. Implement the Dom class with the following API
 
@@ -41,7 +44,7 @@ Hint: from the looks, if the second item is an array, we need to use recursion.
                     Dom("li", text="The end of suffering"),
                     Dom("li", text="A path to the end of suffering"),
                 ]),
-                Dom("p", id="last_mark", text="")
+                Dom("p", id="last_mark", text="This is the end, my only friend.")
             ])
         ])
 
@@ -58,7 +61,7 @@ Hint: from the looks, if the second item is an array, we need to use recursion.
 
         webpage.getElementById("last_mark").appendChild(img)
 
-    Print recursively the resulting HTML tree
+    Print recursively the resulting HTML Dom tree
 
 
 ### Computational Graph
@@ -118,7 +121,7 @@ Let's support this in our example.
     root = tf.add(Node(4), Node(5))
     root.eval()
 
-1) In class `tf`, implement the other three operations: subtract, divide, and multiply
+1) In class `tf`, implement the other three operations: subtract, divide, and multiply, and `tf.constant()`
 
 2) Using the class `tf`, rewrite the expression "4 / 2 + 3 * 4"
 
