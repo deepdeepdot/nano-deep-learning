@@ -7,15 +7,15 @@ Consider the following recursive definition of some webpage
             "title", "Learning the Buddha"
         ],
         "body", [
-            ["h1", "The Four Noble Truths")]
+            ["h1", "The Four Noble Truths"],
             ["ul", [
                 ["li", "What's suffering?"],
                 ["li", "The cause of suffering"],
                 ["li", "The end of suffering"],
-                ["li", "A path to the end of suffering"],
-            ])
-        ])
-    ])
+                ["li", "A path to the end of suffering"]
+            ]
+        ]
+    ]
 
 1. Write a recursive function to print this hmtl tree<br>
 Hint: from the looks, if the second item is an array, we need to use recursion.
