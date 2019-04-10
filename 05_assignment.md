@@ -4,7 +4,7 @@ Consider the following recursive definition of some webpage
 
 webpage = ["html", [
     ["head",[
-        ["title", "Learning the Buddha"]
+        ["title", "Learning the Buddha Way"]
     ]],
     ["body", [
         ["h1", "The Four Noble Truths"],
