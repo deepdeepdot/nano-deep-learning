@@ -2,24 +2,25 @@
 
 Consider the following recursive definition of some webpage
 
-    webpage = ["html", [
-        "head", [
-            "title", "Learning the Buddha"
-        ],
-        "body", [
-            ["h1", "The Four Noble Truths"],
-            ["ul", [
-                ["li", "What's suffering?"],
-                ["li", "The cause of suffering"],
-                ["li", "The end of suffering"],
-                ["li", "A path to the end of suffering"]
-            ]
-        ]
-    ]
+webpage = ["html", [
+    ["head",[
+        ["title", "Learning the Buddha"]
+    ]],
+    ["body", [
+        ["h1", "The Four Noble Truths"],
+        ["ul", [
+            ["li", "What's suffering?"],
+            ["li", "The cause of suffering"],
+            ["li", "The end of suffering"],
+            ["li", "A path to the end of suffering"]
+        ]]
+    ]]
+]]
 
 1. Write a recursive function to print this hmtl tree<br>
 Hint: from the looks, if the second item is an array, we need to use recursion.
 The solution needs to be done using Python
+
 
 2. Add indentation when printing the html tree
 
@@ -50,6 +51,8 @@ Note: Though we mention the HTML DOM Tree, this is a Python-based exercise, not 
 
 2. Implement a recursive indented printing function
 
+        printDom(webpage)
+
 3. How about supporting the image tag?
 
         img = Dom("img", {
@@ -58,6 +61,7 @@ Note: Though we mention the HTML DOM Tree, this is a Python-based exercise, not 
         });
 
 4. Implement more APIs to support the following
+Extra:
 
         webpage.getElementById("last_mark").appendChild(img)
 
