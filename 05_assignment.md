@@ -121,7 +121,12 @@ In class, we have seen that the class Node supports recursive expressions. We al
 
 #### Part A
 
-The previous example is for the expression: "4 / 2 + 3 * 4"
+This is an implementation for the expression: "4 / 2 + 3 * 4"
+
+    root = Node(operations['+'],
+        left=Node(operations['/'], left=Node(4), right=Node(2)),
+        right=Node(operations['*'], left=Node(3), right=Node(4))
+    )
 
 Implement the expression: "3*1+6/3-3+5".<br>
 There are multiple implementations for the above example.<br>
