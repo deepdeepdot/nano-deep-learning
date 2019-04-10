@@ -24,6 +24,21 @@ The solution needs to be done using Python
 
 2. Add indentation when printing the html tree
 
+Notes: This is the output when I run my implementation of `print_html()`
+
+        In [7]: print_html(webpage) 
+                                    
+        html
+            head
+                title: Learning the Buddha
+            body
+                h1: The Four Noble Truths
+                    ul
+                        li: What's suffering?
+                        li: The cause of suffering
+                        li: The end of suffering
+                        li: A path to the end of suffering
+
 
 ### HTML DOM Tree
 
@@ -70,7 +85,7 @@ Extra:
 
 ### Computational Graph
 
-In class, we have seen the class Node that supports recursive numeric expressions and some examples of Tensorflow.
+In class, we have seen that the class Node supports recursive expressions. We also review some short examples of Tensorflow.
 
     operations = {
         '+': lambda a, b: a + b,
