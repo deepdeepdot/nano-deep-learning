@@ -33,11 +33,11 @@ Notes: This is the output when I run my implementation of `print_html()`
                 title: Learning the Buddha
             body
                 h1: The Four Noble Truths
-                    ul
-                        li: What's suffering?
-                        li: The cause of suffering
-                        li: The end of suffering
-                        li: A path to the end of suffering
+                ul
+                    li: What's suffering?
+                    li: The cause of suffering
+                    li: The end of suffering
+                    li: A path to the end of suffering
 
 
 ### HTML DOM Tree
