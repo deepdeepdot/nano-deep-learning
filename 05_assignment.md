@@ -42,7 +42,7 @@ Notes: This is the output when I run my implementation of `print_html()`
 
 ### HTML DOM Tree
 
-Note: Though we mention the HTML DOM Tree, this is a Python-based exercise, not browser-based Javascript. We are emulating the HTML DOM API using python.
+Note: Though we are working with an HTML DOM Tree, this is a Python-based exercise. This is not a browser-based Javascript exercise. We are emulating the HTML DOM API using python.
 
 1. Implement the Dom class with the following API
 
@@ -50,7 +50,7 @@ Note: Though we mention the HTML DOM Tree, this is a Python-based exercise, not 
 
         webpage = Dom("html", children=[
             Dom("head", children=[
-                Dom("title", text="deep learning for dummies")
+                Dom("title", text="Deep learning for dummies")
             ]),
             Dom("body", children=[
                 Dom("h1", text="The four noble truths"),
@@ -85,7 +85,7 @@ Extra:
 
 ### Computational Graph
 
-In class, we have seen that the class Node supports recursive expressions. We also review some short examples of Tensorflow.
+In class, we have seen that the class Node supports recursive expressions. We also reviewed some short examples of Tensorflow.
 
     operations = {
         '+': lambda a, b: a + b,
@@ -118,6 +118,7 @@ In class, we have seen that the class Node supports recursive expressions. We al
         right=Node(operations['*'], left=Node(3), right=Node(4))
     )
     total = root.eval()
+
 
 #### Part A
 

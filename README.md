@@ -86,8 +86,12 @@ I decided not to recreate slides that have been wonderfully created by other fre
 * Magenta.js: Drum RNN
 * Rasa, chatbot AI
 
-Session #6: Neural Networks
-* TBD 
+[Session #6: Neural Networks](06-nano-slides.md)
+* Tensorflow.js, api and demos
+* Big picture of Deep Learning
+* Deep Learning Problems
+* Model Zoo
+* Neural Networks
 
 
 ### Slides from IntroToDeepLearning.com
