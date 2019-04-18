@@ -33,8 +33,7 @@ https://js.tensorflow.org/api/latest/
 * Tutorial:<br>
 https://observablehq.com/@nsthorat/how-to-build-a-teachable-machine-with-tensorflow-js
 
-* TensorFlow.js Transfer Learning Image Classifier<br>
-https://codelabs.developers.google.com/codelabs/tensorflowjs-teachablemachine-codelab/index.html
+* Youtube:<br>https://www.youtube.com/watch?v=3BhkeY974Rg
 
 
 ### TF.js: Fashion MNIST VAE
@@ -100,8 +99,10 @@ https://colab.research.google.com/github/tensorflow/examples/blob/master/courses
     * 2) Inference: Make predictions with the model
 
 * Example: StyleTransfer
-    * 1) Python/Tensorflow: StyleTransfer -> Training => model
-    * 2) Web Javascript/HTML: ml5.js + model -> predictions
+    * 1) Python/Tensorflow
+        * StyleTransfer + Training => Model (weights)
+    * 2) Web Javascript/HTML
+        * ml5.js + Model => Predictions
 
 
 ### Model Zoo
@@ -194,6 +195,14 @@ https://medium.com/dair-ai/building-rnns-is-fun-with-pytorch-and-google-colab-39
 * https://gym.openai.com/docs/
 * http://blog.dota2.com/
 https://www.theverge.com/2018/6/25/17492918/openai-dota-2-bot-ai-five-5v5-matches
+* Alphago<br>
+https://www.netflix.com/ca/title/80190844
+
+
+### Google Coral
+
+* https://coral.withgoogle.com/
+* https://aiyprojects.withgoogle.com/edge-tpu
 
 
 ### Tensorflow.js References

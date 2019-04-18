@@ -90,7 +90,7 @@ munificent/generate.c
 A random dungeon generator that fits on a business card 
 
 
-#### Recursive defintions: Expressions
+#### Recursive definitions: Expressions
 
     # Rules
     expression = [number]
@@ -152,7 +152,7 @@ A random dungeon generator that fits on a business card
       data
       right (pointer to Node)
       left (pointer to a Node)
-      isLeaf(): right and left are null
+      isLeaf(): right and left are None
 
     def eval(<data>, left=a=node, right=a-node):
       return 1
@@ -255,7 +255,7 @@ Implement 'eval()'
 
 #### Tensorflow is a computational graph
     # $ conda activate nanos
-    # $ conda install tensorflow-gpu # or tensorflow
+    # $ conda install tensorflow # or tensorflow-gpu
     import tensorflow as tf
 
     sess = tf.Session() # Create a session
@@ -409,8 +409,9 @@ https://github.com/tensorflow/models/blob/master/research/im2txt/conda-env/ubunt
 ### Language Models
 
 * Word2vec<br>https://jalammar.github.io/illustrated-word2vec/
-* Machine Translation<br>https://github.com/tensorflow/nmt
+* Spacy<br>https://course.spacy.io/
 
+* Machine Translation<br>https://github.com/tensorflow/nmt
 * GPT-2<br>
   - https://openai.com/blog/better-language-models/
   - https://github.com/openai/gpt-2

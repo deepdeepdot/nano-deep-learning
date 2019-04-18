@@ -273,7 +273,6 @@ http://matrixmultiplication.xyz/
 
 ### Downsampling
 
-<!-- (https://adeshpande3.github.io/assets/MaxPool.png) -->
 ![MaxPooling Image](img/maxpool.png)
 
 Can you code this? We take the maximum in each colored square
