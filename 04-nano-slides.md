@@ -165,7 +165,7 @@ https://www.kadenze.com/courses/creative-applications-of-deep-learning-with-tens
 
 
 ### MNIST
-* Digit recognition
+* LeNet digit recognition: http://yann.lecun.com/exdb/lenet/
 * MNIST Demo<br>
     - Demo: https://storage.googleapis.com/tfjs-examples/mnist/dist/index.html
     - Code: https://github.com/tensorflow/tfjs-examples/tree/master/mnist

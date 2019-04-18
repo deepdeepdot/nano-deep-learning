@@ -117,6 +117,17 @@ https://colab.research.google.com/github/tensorflow/examples/blob/master/courses
 http://www.asimovinstitute.org/neural-network-zoo/
 
 
+### The brain and computer vision
+
+* An intuitive guide to Convolutional Neural Networks<br>https://medium.freecodecamp.org/an-intuitive-guide-to-convolutional-neural-networks-260c2de0a050
+
+* Nancy's Brain Talks:<br>
+https://nancysbraintalks.mit.edu/
+
+* Stanford's CS231n: Convolutional Neural Networks for Visual Recognition
+http://cs231n.stanford.edu/
+
+
 ### Neural Networks
 
 * Mind: How to Build a Neural Network (Part One)
