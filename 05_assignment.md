@@ -165,4 +165,6 @@ Optional: install and execute a chat bot
 http://rasa.com
 
 
+### Char RNN
 
+https://research.google.com/seedbank/seed/charrnn

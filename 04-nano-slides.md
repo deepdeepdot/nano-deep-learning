@@ -199,7 +199,8 @@ https://www.kadenze.com/courses/creative-applications-of-deep-learning-with-tens
 ### ml5.js
 
 * Posenet<br>
-https://ml5js.org/docs/posenet-webcam
+https://ml5js.org/docs/posenet-webcam<br>
+https://blog.nanonets.com/human-pose-estimation-2d-guide/
 
 * Image classifier<br>
 https://ml5js.org/docs/training-introduction

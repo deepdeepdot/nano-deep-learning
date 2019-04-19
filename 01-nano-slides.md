@@ -176,7 +176,7 @@ Python challenge: Implement transpose()
 
 ### Matrix Multiplication
 
-http://matrixmultiplication.xyz/
+https://www.mathbootcamps.com/multiplying-matrices/
 
     X = A * B
 

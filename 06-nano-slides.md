@@ -185,6 +185,9 @@ http://colah.github.io/posts/2015-08-Understanding-LSTMs/
 * PyTorch: RNN<br>
 https://medium.com/dair-ai/building-rnns-is-fun-with-pytorch-and-google-colab-3903ea9a3a79
 
+* Char RNN<br>
+https://research.google.com/seedbank/seed/charrnn
+
 
 ### Style GANS
 
@@ -208,6 +211,18 @@ https://medium.com/dair-ai/building-rnns-is-fun-with-pytorch-and-google-colab-39
 https://www.theverge.com/2018/6/25/17492918/openai-dota-2-bot-ai-five-5v5-matches
 * Alphago<br>
 https://www.netflix.com/ca/title/80190844
+
+
+### Wavenet: Text to Speech
+
+* Article<br>
+https://deepmind.com/blog/wavenet-generative-model-raw-audio/
+
+* Demo<br>
+https://cloud.google.com/text-to-speech/
+
+* Voices<br>
+https://cloud.google.com/text-to-speech/docs/voices
 
 
 ### Google Coral

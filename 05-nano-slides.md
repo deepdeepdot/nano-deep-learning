@@ -409,6 +409,7 @@ https://github.com/tensorflow/models/blob/master/research/im2txt/conda-env/ubunt
 ### Language Models
 
 * Word2vec<br>https://jalammar.github.io/illustrated-word2vec/
+<br>king + woman - man = queen
 * Spacy<br>https://course.spacy.io/
 
 * Machine Translation<br>https://github.com/tensorflow/nmt
