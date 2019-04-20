@@ -410,6 +410,7 @@ https://github.com/tensorflow/models/blob/master/research/im2txt/conda-env/ubunt
 
 * Word2vec: king + woman - man = queen
 <br>https://jalammar.github.io/illustrated-word2vec/
+* Glove: https://nlp.stanford.edu/projects/glove/
 * Spacy: https://course.spacy.io/
 * Machine Translation: https://github.com/tensorflow/nmt
 * Eminem-based RNN<br>
