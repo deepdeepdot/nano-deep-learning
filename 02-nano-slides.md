@@ -1,6 +1,13 @@
 ### II. What's a function?
 
-![The Equation Image](img/e=mc2.png)
+
+### Topics
+
+* IPython
+* Jupyter notebooks
+* Numpy
+* Lambdas in Python
+* Matplotlib
 
 
 #### Running Python scripts
