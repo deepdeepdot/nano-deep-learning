@@ -225,10 +225,16 @@ https://cloud.google.com/text-to-speech/
 https://cloud.google.com/text-to-speech/docs/voices
 
 
-### Google Coral
+### Embedded devices
 
-* https://coral.withgoogle.com/
-* https://aiyprojects.withgoogle.com/edge-tpu
+* Google Coral
+    - https://coral.withgoogle.com/
+    - https://aiyprojects.withgoogle.com/edge-tpu
+
+* Nvidia's Jetson Nano
+    - https://developer.nvidia.com/embedded/twodaystoademo#hello_ai_world
+    - https://developer.nvidia.com/embedded/buy/jetson-nano-devkit
+    - https://www.extremetech.com/computing/288153-hands-on-with-nvidias-new-jetson-nano
 
 
 ### Tensorflow.js References
