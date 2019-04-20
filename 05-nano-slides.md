@@ -408,14 +408,13 @@ https://github.com/tensorflow/models/blob/master/research/im2txt/conda-env/ubunt
 
 ### Language Models
 
-* Word2vec<br>https://jalammar.github.io/illustrated-word2vec/
-<br>king + woman - man = queen
-* Spacy<br>https://course.spacy.io/
-
-* Machine Translation<br>https://github.com/tensorflow/nmt
-* GPT-2<br>
-  - https://openai.com/blog/better-language-models/
-  - https://github.com/openai/gpt-2
+* Word2vec: king + woman - man = queen
+<br>https://jalammar.github.io/illustrated-word2vec/
+* Spacy: https://course.spacy.io/
+* Machine Translation: https://github.com/tensorflow/nmt
+* Eminem-based RNN<br>
+https://soundcloud.com/mrchrisjohnson/recurrent-neural-shady
+* Char RNN: https://research.google.com/seedbank/seed/charrnn
 
 
 ### Chopin RNN
