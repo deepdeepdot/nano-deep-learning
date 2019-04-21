@@ -1,25 +1,25 @@
 ### Free online courses for Deep Learning
 
-* Kadenze, creative applications of Deep Learning with Tensorflow
+* Kadenze, creative applications of Deep Learning with Tensorflow<br>
 https://www.kadenze.com/courses/creative-applications-of-deep-learning-with-tensorflow/info
 
-* MIT, 6.S191: Introduction to Deep Learning
+* MIT, 6.S191: Introduction to Deep Learning<br>
 http://introtodeeplearning.com/
 
-* Fast.AI's Deep Learning
+* Fast.AI's Deep Learning<br>
 https://www.fast.ai/
 
-* Udacity, Deep Learning
+* Udacity, Deep Learning<br>
 https://classroom.udacity.com/courses/ud730
 
-* Udacity, Tensorflow (in progress)
+* Udacity, Tensorflow (in progress)<br>
 https://classroom.udacity.com/courses/ud187
 
 
 ### Readings
 
 * Deep Learning with Python
-by Francois Chollet  | Dec 22, 2017
+by Francois Chollet  | Dec 22, 2017<br>
 https://smile.amazon.com/Deep-Learning-Python-Francois-Chollet/dp/1617294438
 
 * Online books
@@ -29,20 +29,28 @@ https://smile.amazon.com/Deep-Learning-Python-Francois-Chollet/dp/1617294438
 
 ### Free online classes on Machine Learning
 
-* Udacity, Intro to Machine Learning
+* Udacity, Intro to Machine Learning<br>
 https://classroom.udacity.com/courses/ud120
 
-* Coursera, Machine Learning
+* Coursera, Machine Learning<br>
 https://www.coursera.org/learn/machine-learning
 
 
 ### Computer Vision
 
-* Stanford, cs231
+* Stanford, cs231<br>
 http://cs231n.stanford.edu
 
-* Nancy's Brain Talks
+* Nancy's Brain Talks<br>
 https://nancysbraintalks.mit.edu/
+
+
+### AI Projects
+
+* Google's seedbank<br>
+https://research.google.com/seedbank/
+* Papers with code<br>
+https://paperswithcode.com/
 
 
 ### Kaggle
@@ -60,9 +68,14 @@ https://www.kaggle.com/learn/overview
 https://www.coursera.org/learn/competitive-data-science
 
 
+### Email newsletters
+
+* https://medium.com/@founderstime/ai-newsletters-you-should-subscribe-to-part-2-3-individuals-9cf0d99006fa
+
+
 ### Neural Networks
 
-3brown1blue
+3brown1blue<br>
 https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi
 
 
@@ -83,13 +96,13 @@ https://github.com/stephencwelch/Neural-Networks-Demystified
 
 ### Math
 
-* Statistics
+* Statistics<br>
 https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/
 
-* Computational Algebra
+* Computational Algebra<br>
 https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/
 
-* Eigenvectors and Eigenvalues
+* Eigenvectors and Eigenvalues<br>
 https://www.udacity.com/course/eigenvectors-and-eigenvalues--ud104
 
 
@@ -108,14 +121,16 @@ https://www.udacity.com/course/eigenvectors-and-eigenvalues--ud104
 
 ### Tensorflow 2.0
 
-* What’s coming in TensorFlow 2.0
+* What’s coming in TensorFlow 2.0<br>
 https://medium.com/tensorflow/whats-coming-in-tensorflow-2-0-d3663832e9b8
 
-* Youtube: Tensorflow Dev 2019 Summit
+* Youtube: Tensorflow Dev 2019 Summit<br>
 https://www.youtube.com/playlist?list=PLQY2H8rRoyvzoUYI26kHmKSJBedn3SQuB
 
 * https://tfhub.dev
 
+
+## Hardware
 
 ### GPU
 * Graphics Processing Unit (vs CPU: Central Processing Unit)
@@ -180,7 +195,6 @@ https://coral.withgoogle.com/
 https://www.amazon.com/Intel-NCSM2450-DK1-Movidius-Neural-Compute/dp/B076751BN8
 
 * Nvidia Jetson TX2<br>
-https://www.amazon.com/NVIDIA-Jetson-Nano-Developer-Kit/dp/B06XPFH939
 https://www.nvidia.com/en-us/autonomous-machines/embedded-systems-dev-kits-modules/
 
 * https://blog.hackster.io/say-hello-to-google-coral-cdbb49183864
